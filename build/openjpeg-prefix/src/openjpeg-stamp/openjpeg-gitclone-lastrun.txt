@@ -1,0 +1,3 @@
+repository='https://github.com/ningfei/openjpeg.git'
+module=''
+tag='origin'

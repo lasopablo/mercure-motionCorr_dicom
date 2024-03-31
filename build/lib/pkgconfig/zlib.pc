@@ -1,0 +1,13 @@
+prefix=/home/micsipc/Downloads/dcm2niix/build
+exec_prefix=/home/micsipc/Downloads/dcm2niix/build/bin
+libdir=/home/micsipc/Downloads/dcm2niix/build/lib
+sharedlibdir=/home/micsipc/Downloads/dcm2niix/build/lib
+includedir=/home/micsipc/Downloads/dcm2niix/build/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

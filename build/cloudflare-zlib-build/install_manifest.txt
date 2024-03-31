@@ -1,0 +1,5 @@
+/home/micsipc/Downloads/dcm2niix/build/lib/libz.a
+/home/micsipc/Downloads/dcm2niix/build/include/zconf.h
+/home/micsipc/Downloads/dcm2niix/build/include/zlib.h
+/home/micsipc/Downloads/dcm2niix/build/share/man/man3/zlib.3
+/home/micsipc/Downloads/dcm2niix/build/lib/pkgconfig/zlib.pc

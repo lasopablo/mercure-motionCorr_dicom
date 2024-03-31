@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/micsipc/Downloads/dcm2niix/build/CMakeFiles/console"
+		},
+		{
+			"file" : "/home/micsipc/Downloads/dcm2niix/build/CMakeFiles/console.rule"
+		},
+		{
+			"file" : "/home/micsipc/Downloads/dcm2niix/build/CMakeFiles/console-complete.rule"
+		},
+		{
+			"file" : "/home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-build.rule"
+		},
+		{
+			"file" : "/home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-configure.rule"
+		},
+		{
+			"file" : "/home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-download.rule"
+		},
+		{
+			"file" : "/home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-install.rule"
+		},
+		{
+			"file" : "/home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-mkdir.rule"
+		},
+		{
+			"file" : "/home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-patch.rule"
+		},
+		{
+			"file" : "/home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"console"
+		],
+		"name" : "console"
+	}
+}

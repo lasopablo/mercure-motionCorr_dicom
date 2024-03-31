@@ -1,0 +1,13 @@
+# Target labels
+ zlib
+# Source files and their labels
+/home/micsipc/Downloads/dcm2niix/build/CMakeFiles/zlib
+/home/micsipc/Downloads/dcm2niix/build/CMakeFiles/zlib.rule
+/home/micsipc/Downloads/dcm2niix/build/CMakeFiles/zlib-complete.rule
+/home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-build.rule
+/home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-configure.rule
+/home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-download.rule
+/home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-install.rule
+/home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-mkdir.rule
+/home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-patch.rule
+/home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-update.rule

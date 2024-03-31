@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-Wno-dev;--no-warn-unused-cli;-DCMAKE_C_COMPILER:FILEPATH=/usr/bin/cc;-DCMAKE_INSTALL_PREFIX:PATH=/home/micsipc/Downloads/dcm2niix/build;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
