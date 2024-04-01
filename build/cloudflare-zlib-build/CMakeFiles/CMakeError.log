@@ -1,17 +1,17 @@
 Performing C SOURCE FILE Test ARM_CRC failed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_360c7/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_360c7.dir/build.make CMakeFiles/cmTC_360c7.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_360c7.dir/src.c.o
-/usr/bin/cc -DARM_CRC  -static-libgcc  -fPIE   -march=armv8-a+crc -o CMakeFiles/cmTC_360c7.dir/src.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4c745/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_4c745.dir/build.make CMakeFiles/cmTC_4c745.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c745.dir/src.c.o
+/usr/bin/cc -DARM_CRC  -static-libgcc  -fPIE   -march=armv8-a+crc -o CMakeFiles/cmTC_4c745.dir/src.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp/src.c
 cc1: error: bad value ('armv8-a+crc') for '-march=' switch
 cc1: note: valid arguments to '-march=' switch are: nocona core2 nehalem corei7 westmere sandybridge corei7-avx ivybridge core-avx-i haswell core-avx2 broadwell skylake skylake-avx512 cannonlake icelake-client rocketlake icelake-server cascadelake tigerlake cooperlake sapphirerapids alderlake bonnell atom silvermont slm goldmont goldmont-plus tremont knl knm x86-64 x86-64-v2 x86-64-v3 x86-64-v4 eden-x2 nano nano-1000 nano-2000 nano-3000 nano-x2 eden-x4 nano-x4 k8 k8-sse3 opteron opteron-sse3 athlon64 athlon64-sse3 athlon-fx amdfam10 barcelona bdver1 bdver2 bdver3 bdver4 znver1 znver2 znver3 btver1 btver2 native
-gmake[4]: *** [CMakeFiles/cmTC_360c7.dir/build.make:78: CMakeFiles/cmTC_360c7.dir/src.c.o] Error 1
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp'
-gmake[3]: *** [Makefile:127: cmTC_360c7/fast] Error 2
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTC_4c745.dir/build.make:78: CMakeFiles/cmTC_4c745.dir/src.c.o] Error 1
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp'
+gmake[3]: *** [Makefile:127: cmTC_4c745/fast] Error 2
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/CMakeTmp'
 
 
 Source file was:

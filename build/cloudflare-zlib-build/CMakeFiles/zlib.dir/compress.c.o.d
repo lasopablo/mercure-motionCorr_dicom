@@ -1,8 +1,8 @@
 CMakeFiles/zlib.dir/compress.c.o: \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/compress.c \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/compress.c \
  /usr/include/stdc-predef.h \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zlib.h \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zconf.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zlib.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zconf.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

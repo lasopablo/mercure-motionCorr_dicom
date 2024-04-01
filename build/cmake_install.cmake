@@ -1,4 +1,4 @@
-# Install script for directory: /home/micsipc/Downloads/dcm2niix
+# Install script for directory: /home/micsipc/github/mercure-motionCorr_dicom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE DIRECTORY FILES "/home/micsipc/Downloads/dcm2niix/build/bin/" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE DIRECTORY FILES "/home/micsipc/github/mercure-motionCorr_dicom/build/bin/" USE_SOURCE_PERMISSIONS)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/micsipc/Downloads/dcm2niix/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/micsipc/github/mercure-motionCorr_dicom/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

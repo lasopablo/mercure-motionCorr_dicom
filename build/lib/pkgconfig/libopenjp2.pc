@@ -1,4 +1,4 @@
-prefix=/home/micsipc/Downloads/dcm2niix/build
+prefix=/home/micsipc/github/mercure-motionCorr_dicom/build
 bindir=${prefix}/bin
 mandir=${prefix}/
 docdir=${prefix}/

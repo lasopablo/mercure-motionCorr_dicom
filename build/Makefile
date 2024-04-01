@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/micsipc/Downloads/dcm2niix
+CMAKE_SOURCE_DIR = /home/micsipc/github/mercure-motionCorr_dicom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/micsipc/Downloads/dcm2niix/build
+CMAKE_BINARY_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/Downloads/dcm2niix/build/CMakeFiles /home/micsipc/Downloads/dcm2niix/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles /home/micsipc/github/mercure-motionCorr_dicom/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/Downloads/dcm2niix/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

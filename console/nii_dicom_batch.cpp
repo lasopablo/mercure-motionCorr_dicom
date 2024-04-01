@@ -9139,6 +9139,9 @@ int searchDirRenameDICOM(char *path, int maxDepth, int depth, struct TDCMopts *o
 		else if (isDICOMfile(filename) > 0) {
 			//printMessage("dcm %s \n", filename);
 			struct TDICOMdata dcm = readDICOM(filename); //ignore compile warning - memory only freed on first of 2 passes
+			printMessage("Patient Name: %s\n", dcm.patientName);
+			printMessage("Study Date: %s\n", dcm.studyDate);
+
 			//~ if ((dcm.isValid) &&((dcm.totalSlicesIn4DOrder != NULL) ||(dcm.patientPositionNumPhilips > 1) || (dcm.CSA.numDti > 1))) { //4D dataset: dti4D arrays require huge amounts of RAM - write this immediately
 			if (dcm.imageNum > 0) { //use imageNum instead of isValid to convert non-images (kWaveformSq will have instance number but is not a valid image)
 				if ((opts->isIgnoreDerivedAnd2D) && ((dcm.isLocalizer) || (strcmp(dcm.sequenceName, "_tfl2d1") == 0) || (strcmp(dcm.sequenceName, "_fl3d1_ns") == 0) || (strcmp(dcm.sequenceName, "_fl2d1") == 0))) {
@@ -9331,7 +9334,12 @@ int nii_loadDirCore(char *indir, struct TDCMopts *opts) {
 				convertError = true;
 			continue;
 		}
+		// here: reads DICOM header and DICOM metadata
 		dcmList[i] = readDICOMx(nameList.str[i], &prefs, dti4D); //ignore compile warning - memory only freed on first of 2 passes
+		// After dcmList[i] has been assigned
+		printMessage("Patient Name: %s\n", dcmList[i].patientName);
+
+		
 		//dcmList[i] = readDICOMv(nameList.str[i], opts->isVerbose, opts->compressFlag, dti4D); //ignore compile warning - memory only freed on first of 2 passes
 		if (opts->isIgnoreSeriesInstanceUID)
 			dcmList[i].seriesUidCrc = dcmList[i].seriesNum;

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/micsipc/Downloads/dcm2niix/build/openjpeg
+CMAKE_SOURCE_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/micsipc/Downloads/dcm2niix/build/openjpeg-build
+CMAKE_BINARY_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build
 
 # Include any dependencies generated for this target.
 include src/lib/openjp2/CMakeFiles/openjp2.dir/depend.make
@@ -70,270 +70,270 @@ include src/lib/openjp2/CMakeFiles/openjp2.dir/progress.make
 include src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/bio.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/bio.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o -MF CMakeFiles/openjp2.dir/bio.c.o.d -o CMakeFiles/openjp2.dir/bio.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/bio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o -MF CMakeFiles/openjp2.dir/bio.c.o.d -o CMakeFiles/openjp2.dir/bio.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/bio.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/bio.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/bio.c > CMakeFiles/openjp2.dir/bio.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/bio.c > CMakeFiles/openjp2.dir/bio.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/bio.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/bio.c -o CMakeFiles/openjp2.dir/bio.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/bio.c -o CMakeFiles/openjp2.dir/bio.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/cio.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/cio.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o -MF CMakeFiles/openjp2.dir/cio.c.o.d -o CMakeFiles/openjp2.dir/cio.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/cio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o -MF CMakeFiles/openjp2.dir/cio.c.o.d -o CMakeFiles/openjp2.dir/cio.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/cio.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/cio.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/cio.c > CMakeFiles/openjp2.dir/cio.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/cio.c > CMakeFiles/openjp2.dir/cio.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/cio.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/cio.c -o CMakeFiles/openjp2.dir/cio.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/cio.c -o CMakeFiles/openjp2.dir/cio.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/dwt.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/dwt.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o -MF CMakeFiles/openjp2.dir/dwt.c.o.d -o CMakeFiles/openjp2.dir/dwt.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/dwt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o -MF CMakeFiles/openjp2.dir/dwt.c.o.d -o CMakeFiles/openjp2.dir/dwt.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/dwt.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/dwt.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/dwt.c > CMakeFiles/openjp2.dir/dwt.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/dwt.c > CMakeFiles/openjp2.dir/dwt.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/dwt.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/dwt.c -o CMakeFiles/openjp2.dir/dwt.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/dwt.c -o CMakeFiles/openjp2.dir/dwt.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/event.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/event.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o -MF CMakeFiles/openjp2.dir/event.c.o.d -o CMakeFiles/openjp2.dir/event.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o -MF CMakeFiles/openjp2.dir/event.c.o.d -o CMakeFiles/openjp2.dir/event.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/event.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/event.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/event.c > CMakeFiles/openjp2.dir/event.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/event.c > CMakeFiles/openjp2.dir/event.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/event.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/event.c -o CMakeFiles/openjp2.dir/event.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/event.c -o CMakeFiles/openjp2.dir/event.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/image.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/image.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o -MF CMakeFiles/openjp2.dir/image.c.o.d -o CMakeFiles/openjp2.dir/image.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o -MF CMakeFiles/openjp2.dir/image.c.o.d -o CMakeFiles/openjp2.dir/image.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/image.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/image.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/image.c > CMakeFiles/openjp2.dir/image.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/image.c > CMakeFiles/openjp2.dir/image.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/image.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/image.c -o CMakeFiles/openjp2.dir/image.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/image.c -o CMakeFiles/openjp2.dir/image.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/invert.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/invert.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o -MF CMakeFiles/openjp2.dir/invert.c.o.d -o CMakeFiles/openjp2.dir/invert.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/invert.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o -MF CMakeFiles/openjp2.dir/invert.c.o.d -o CMakeFiles/openjp2.dir/invert.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/invert.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/invert.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/invert.c > CMakeFiles/openjp2.dir/invert.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/invert.c > CMakeFiles/openjp2.dir/invert.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/invert.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/invert.c -o CMakeFiles/openjp2.dir/invert.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/invert.c -o CMakeFiles/openjp2.dir/invert.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/j2k.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/j2k.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o -MF CMakeFiles/openjp2.dir/j2k.c.o.d -o CMakeFiles/openjp2.dir/j2k.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/j2k.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o -MF CMakeFiles/openjp2.dir/j2k.c.o.d -o CMakeFiles/openjp2.dir/j2k.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/j2k.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/j2k.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/j2k.c > CMakeFiles/openjp2.dir/j2k.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/j2k.c > CMakeFiles/openjp2.dir/j2k.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/j2k.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/j2k.c -o CMakeFiles/openjp2.dir/j2k.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/j2k.c -o CMakeFiles/openjp2.dir/j2k.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/jp2.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/jp2.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o -MF CMakeFiles/openjp2.dir/jp2.c.o.d -o CMakeFiles/openjp2.dir/jp2.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/jp2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o -MF CMakeFiles/openjp2.dir/jp2.c.o.d -o CMakeFiles/openjp2.dir/jp2.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/jp2.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/jp2.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/jp2.c > CMakeFiles/openjp2.dir/jp2.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/jp2.c > CMakeFiles/openjp2.dir/jp2.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/jp2.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/jp2.c -o CMakeFiles/openjp2.dir/jp2.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/jp2.c -o CMakeFiles/openjp2.dir/jp2.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/mct.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/mct.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o -MF CMakeFiles/openjp2.dir/mct.c.o.d -o CMakeFiles/openjp2.dir/mct.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/mct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o -MF CMakeFiles/openjp2.dir/mct.c.o.d -o CMakeFiles/openjp2.dir/mct.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/mct.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/mct.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/mct.c > CMakeFiles/openjp2.dir/mct.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/mct.c > CMakeFiles/openjp2.dir/mct.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/mct.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/mct.c -o CMakeFiles/openjp2.dir/mct.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/mct.c -o CMakeFiles/openjp2.dir/mct.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/mqc.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/mqc.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o -MF CMakeFiles/openjp2.dir/mqc.c.o.d -o CMakeFiles/openjp2.dir/mqc.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/mqc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o -MF CMakeFiles/openjp2.dir/mqc.c.o.d -o CMakeFiles/openjp2.dir/mqc.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/mqc.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/mqc.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/mqc.c > CMakeFiles/openjp2.dir/mqc.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/mqc.c > CMakeFiles/openjp2.dir/mqc.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/mqc.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/mqc.c -o CMakeFiles/openjp2.dir/mqc.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/mqc.c -o CMakeFiles/openjp2.dir/mqc.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/openjpeg.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/openjpeg.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o -MF CMakeFiles/openjp2.dir/openjpeg.c.o.d -o CMakeFiles/openjp2.dir/openjpeg.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/openjpeg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o -MF CMakeFiles/openjp2.dir/openjpeg.c.o.d -o CMakeFiles/openjp2.dir/openjpeg.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/openjpeg.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/openjpeg.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/openjpeg.c > CMakeFiles/openjp2.dir/openjpeg.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/openjpeg.c > CMakeFiles/openjp2.dir/openjpeg.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/openjpeg.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/openjpeg.c -o CMakeFiles/openjp2.dir/openjpeg.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/openjpeg.c -o CMakeFiles/openjp2.dir/openjpeg.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/opj_clock.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/opj_clock.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o -MF CMakeFiles/openjp2.dir/opj_clock.c.o.d -o CMakeFiles/openjp2.dir/opj_clock.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/opj_clock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o -MF CMakeFiles/openjp2.dir/opj_clock.c.o.d -o CMakeFiles/openjp2.dir/opj_clock.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/opj_clock.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/opj_clock.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/opj_clock.c > CMakeFiles/openjp2.dir/opj_clock.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/opj_clock.c > CMakeFiles/openjp2.dir/opj_clock.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/opj_clock.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/opj_clock.c -o CMakeFiles/openjp2.dir/opj_clock.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/opj_clock.c -o CMakeFiles/openjp2.dir/opj_clock.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/pi.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/pi.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o -MF CMakeFiles/openjp2.dir/pi.c.o.d -o CMakeFiles/openjp2.dir/pi.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/pi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o -MF CMakeFiles/openjp2.dir/pi.c.o.d -o CMakeFiles/openjp2.dir/pi.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/pi.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/pi.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/pi.c > CMakeFiles/openjp2.dir/pi.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/pi.c > CMakeFiles/openjp2.dir/pi.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/pi.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/pi.c -o CMakeFiles/openjp2.dir/pi.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/pi.c -o CMakeFiles/openjp2.dir/pi.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/raw.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/raw.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o -MF CMakeFiles/openjp2.dir/raw.c.o.d -o CMakeFiles/openjp2.dir/raw.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/raw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o -MF CMakeFiles/openjp2.dir/raw.c.o.d -o CMakeFiles/openjp2.dir/raw.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/raw.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/raw.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/raw.c > CMakeFiles/openjp2.dir/raw.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/raw.c > CMakeFiles/openjp2.dir/raw.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/raw.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/raw.c -o CMakeFiles/openjp2.dir/raw.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/raw.c -o CMakeFiles/openjp2.dir/raw.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/t1.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/t1.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o -MF CMakeFiles/openjp2.dir/t1.c.o.d -o CMakeFiles/openjp2.dir/t1.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/t1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o -MF CMakeFiles/openjp2.dir/t1.c.o.d -o CMakeFiles/openjp2.dir/t1.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/t1.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/t1.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/t1.c > CMakeFiles/openjp2.dir/t1.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/t1.c > CMakeFiles/openjp2.dir/t1.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/t1.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/t1.c -o CMakeFiles/openjp2.dir/t1.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/t1.c -o CMakeFiles/openjp2.dir/t1.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/t2.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/t2.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o -MF CMakeFiles/openjp2.dir/t2.c.o.d -o CMakeFiles/openjp2.dir/t2.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/t2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o -MF CMakeFiles/openjp2.dir/t2.c.o.d -o CMakeFiles/openjp2.dir/t2.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/t2.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/t2.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/t2.c > CMakeFiles/openjp2.dir/t2.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/t2.c > CMakeFiles/openjp2.dir/t2.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/t2.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/t2.c -o CMakeFiles/openjp2.dir/t2.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/t2.c -o CMakeFiles/openjp2.dir/t2.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/tcd.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/tcd.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o -MF CMakeFiles/openjp2.dir/tcd.c.o.d -o CMakeFiles/openjp2.dir/tcd.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/tcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o -MF CMakeFiles/openjp2.dir/tcd.c.o.d -o CMakeFiles/openjp2.dir/tcd.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/tcd.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/tcd.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/tcd.c > CMakeFiles/openjp2.dir/tcd.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/tcd.c > CMakeFiles/openjp2.dir/tcd.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/tcd.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/tcd.c -o CMakeFiles/openjp2.dir/tcd.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/tcd.c -o CMakeFiles/openjp2.dir/tcd.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/tgt.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/tgt.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o -MF CMakeFiles/openjp2.dir/tgt.c.o.d -o CMakeFiles/openjp2.dir/tgt.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/tgt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o -MF CMakeFiles/openjp2.dir/tgt.c.o.d -o CMakeFiles/openjp2.dir/tgt.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/tgt.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/tgt.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/tgt.c > CMakeFiles/openjp2.dir/tgt.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/tgt.c > CMakeFiles/openjp2.dir/tgt.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/tgt.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/tgt.c -o CMakeFiles/openjp2.dir/tgt.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/tgt.c -o CMakeFiles/openjp2.dir/tgt.c.s
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/flags.make
-src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/function_list.c
+src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/function_list.c
 src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o: src/lib/openjp2/CMakeFiles/openjp2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o -MF CMakeFiles/openjp2.dir/function_list.c.o.d -o CMakeFiles/openjp2.dir/function_list.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/function_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o -MF CMakeFiles/openjp2.dir/function_list.c.o.d -o CMakeFiles/openjp2.dir/function_list.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/function_list.c
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/openjp2.dir/function_list.c.i"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/function_list.c > CMakeFiles/openjp2.dir/function_list.c.i
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/function_list.c > CMakeFiles/openjp2.dir/function_list.c.i
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/openjp2.dir/function_list.c.s"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/function_list.c -o CMakeFiles/openjp2.dir/function_list.c.s
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/function_list.c -o CMakeFiles/openjp2.dir/function_list.c.s
 
 # Object files for target openjp2
 openjp2_OBJECTS = \
@@ -381,19 +381,19 @@ bin/libopenjp2.a: src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o
 bin/libopenjp2.a: src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o
 bin/libopenjp2.a: src/lib/openjp2/CMakeFiles/openjp2.dir/build.make
 bin/libopenjp2.a: src/lib/openjp2/CMakeFiles/openjp2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C static library ../../../bin/libopenjp2.a"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && $(CMAKE_COMMAND) -P CMakeFiles/openjp2.dir/cmake_clean_target.cmake
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openjp2.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C static library ../../../bin/libopenjp2.a"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && $(CMAKE_COMMAND) -P CMakeFiles/openjp2.dir/cmake_clean_target.cmake
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openjp2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/lib/openjp2/CMakeFiles/openjp2.dir/build: bin/libopenjp2.a
 .PHONY : src/lib/openjp2/CMakeFiles/openjp2.dir/build
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/clean:
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 && $(CMAKE_COMMAND) -P CMakeFiles/openjp2.dir/cmake_clean.cmake
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 && $(CMAKE_COMMAND) -P CMakeFiles/openjp2.dir/cmake_clean.cmake
 .PHONY : src/lib/openjp2/CMakeFiles/openjp2.dir/clean
 
 src/lib/openjp2/CMakeFiles/openjp2.dir/depend:
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micsipc/Downloads/dcm2niix/build/openjpeg /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2 /home/micsipc/Downloads/dcm2niix/build/openjpeg-build /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2 /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2/CMakeFiles/openjp2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2 /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2 /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2/CMakeFiles/openjp2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/lib/openjp2/CMakeFiles/openjp2.dir/depend
 

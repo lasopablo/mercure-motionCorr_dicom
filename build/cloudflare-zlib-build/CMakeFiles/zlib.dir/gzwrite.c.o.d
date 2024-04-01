@@ -1,7 +1,7 @@
 CMakeFiles/zlib.dir/gzwrite.c.o: \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzwrite.c \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzwrite.c \
  /usr/include/stdc-predef.h \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzguts.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzguts.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -27,8 +27,8 @@ CMakeFiles/zlib.dir/gzwrite.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zlib.h \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zconf.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zlib.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zconf.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \

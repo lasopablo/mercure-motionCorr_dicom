@@ -1,5 +1,5 @@
 CMakeFiles/dcm2niix.dir/cJSON.cpp.o: \
- /home/micsipc/Downloads/dcm2niix/console/cJSON.cpp \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/cJSON.cpp \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -85,4 +85,4 @@ CMakeFiles/dcm2niix.dir/cJSON.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/ctype.h \
- /home/micsipc/Downloads/dcm2niix/console/cJSON.h
+ /home/micsipc/github/mercure-motionCorr_dicom/console/cJSON.h

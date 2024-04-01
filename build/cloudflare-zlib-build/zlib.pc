@@ -1,8 +1,8 @@
-prefix=/home/micsipc/Downloads/dcm2niix/build
-exec_prefix=/home/micsipc/Downloads/dcm2niix/build/bin
-libdir=/home/micsipc/Downloads/dcm2niix/build/lib
-sharedlibdir=/home/micsipc/Downloads/dcm2niix/build/lib
-includedir=/home/micsipc/Downloads/dcm2niix/build/include
+prefix=/home/micsipc/github/mercure-motionCorr_dicom/build
+exec_prefix=/home/micsipc/github/mercure-motionCorr_dicom/build/bin
+libdir=/home/micsipc/github/mercure-motionCorr_dicom/build/lib
+sharedlibdir=/home/micsipc/github/mercure-motionCorr_dicom/build/lib
+includedir=/home/micsipc/github/mercure-motionCorr_dicom/build/include
 
 Name: zlib
 Description: zlib compression library

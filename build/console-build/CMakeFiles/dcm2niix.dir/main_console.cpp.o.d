@@ -1,5 +1,5 @@
 CMakeFiles/dcm2niix.dir/main_console.cpp.o: \
- /home/micsipc/Downloads/dcm2niix/console/main_console.cpp \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/main_console.cpp \
  /usr/include/stdc-predef.h /usr/include/ctype.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -71,13 +71,13 @@ CMakeFiles/dcm2niix.dir/main_console.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /home/micsipc/Downloads/dcm2niix/console/nifti1_io_core.h \
- /home/micsipc/Downloads/dcm2niix/console/nifti1.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1_io_core.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/micsipc/Downloads/dcm2niix/console/nii_dicom.h \
- /home/micsipc/Downloads/dcm2niix/console/nii_dicom_batch.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_dicom.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_dicom_batch.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath \
  /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \

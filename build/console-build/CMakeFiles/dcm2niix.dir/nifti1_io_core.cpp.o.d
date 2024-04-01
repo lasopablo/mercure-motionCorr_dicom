@@ -1,9 +1,9 @@
 CMakeFiles/dcm2niix.dir/nifti1_io_core.cpp.o: \
- /home/micsipc/Downloads/dcm2niix/console/nifti1_io_core.cpp \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1_io_core.cpp \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/micsipc/Downloads/dcm2niix/console/nifti1_io_core.h \
- /home/micsipc/Downloads/dcm2niix/console/nifti1.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1_io_core.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -105,4 +105,4 @@ CMakeFiles/dcm2niix.dir/nifti1_io_core.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/micsipc/Downloads/dcm2niix/console/print.h
+ /home/micsipc/github/mercure-motionCorr_dicom/console/print.h

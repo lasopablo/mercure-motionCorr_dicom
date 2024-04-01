@@ -1,7 +1,7 @@
-/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/zlib.dir
-/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/edit_cache.dir
-/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/rebuild_cache.dir
-/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/list_install_components.dir
-/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/install.dir
-/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/install/local.dir
-/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/install/strip.dir
+/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/zlib.dir
+/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/edit_cache.dir
+/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/rebuild_cache.dir
+/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/list_install_components.dir
+/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/install.dir
+/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/install/local.dir
+/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/install/strip.dir

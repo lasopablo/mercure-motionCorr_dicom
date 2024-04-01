@@ -1,1 +1,1 @@
-/home/micsipc/Downloads/dcm2niix/build/bin/dcm2niix
+/home/micsipc/github/mercure-motionCorr_dicom/build/bin/dcm2niix

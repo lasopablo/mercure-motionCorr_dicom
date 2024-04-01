@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DmyDisableMiniZ -DmyEnableJNIFTI -DmyEnableJPEGLS
 
-CXX_INCLUDES = -I/home/micsipc/Downloads/dcm2niix/build/include -I/home/micsipc/Downloads/dcm2niix/build/include/openjpeg-2.1
+CXX_INCLUDES = -I/home/micsipc/github/mercure-motionCorr_dicom/build/include -I/home/micsipc/github/mercure-motionCorr_dicom/build/include/openjpeg-2.1
 
-CXX_FLAGS =  -static-libstdc++ -static-libgcc -msse2 -mfpmath=sse -std=c++14 -O3 -DNDEBUG   -Wno-format-overflow -Wno-unused-result -fno-diagnostics-show-caret
+CXX_FLAGS =  -static-libstdc++ -static-libgcc -msse2 -mfpmath=sse -std=c++14 -O3 -DNDEBUG -static-libstdc++ -static-libgcc   -Wno-format-overflow -Wno-unused-result -fno-diagnostics-show-caret
 

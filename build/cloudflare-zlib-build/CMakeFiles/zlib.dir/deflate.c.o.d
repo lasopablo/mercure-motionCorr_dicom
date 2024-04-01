@@ -1,10 +1,10 @@
 CMakeFiles/zlib.dir/deflate.c.o: \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/deflate.c \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/deflate.c \
  /usr/include/stdc-predef.h \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/deflate.h \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zutil.h \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zlib.h \
- /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zconf.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/deflate.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zutil.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zlib.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zconf.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

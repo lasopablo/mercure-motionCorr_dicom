@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/micsipc/Downloads/dcm2niix/build/openjpeg
+CMAKE_SOURCE_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/micsipc/Downloads/dcm2niix/build/openjpeg-build
+CMAKE_BINARY_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/micsipc/Downloads/dcm2niix/build/openjpeg-build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CPackSourceConfig.cmake
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib//CMakeFiles/progress.marks
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles 0
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib//CMakeFiles/progress.marks
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/clean
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,17 +168,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/preinstall
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/preinstall
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -206,6 +206,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

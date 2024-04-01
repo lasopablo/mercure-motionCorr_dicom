@@ -1,5 +1,5 @@
 CMakeFiles/dcm2niix.dir/ujpeg.cpp.o: \
- /home/micsipc/Downloads/dcm2niix/console/ujpeg.cpp \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/ujpeg.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/stdlib.h \
  /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

@@ -1,8 +1,8 @@
-# Install script for directory: /home/micsipc/Downloads/dcm2niix/build/openjpeg/wrapping
+# Install script for directory: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/wrapping
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/micsipc/Downloads/dcm2niix/build")
+  set(CMAKE_INSTALL_PREFIX "/home/micsipc/github/mercure-motionCorr_dicom/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

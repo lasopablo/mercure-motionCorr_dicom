@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/micsipc/Downloads/dcm2niix
+CMAKE_SOURCE_DIR = /home/micsipc/github/mercure-motionCorr_dicom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/micsipc/Downloads/dcm2niix/build
+CMAKE_BINARY_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build
 
 # Utility rule file for openjpeg.
 
@@ -76,52 +76,52 @@ CMakeFiles/openjpeg-complete: openjpeg-prefix/src/openjpeg-stamp/openjpeg-patch
 CMakeFiles/openjpeg-complete: openjpeg-prefix/src/openjpeg-stamp/openjpeg-configure
 CMakeFiles/openjpeg-complete: openjpeg-prefix/src/openjpeg-stamp/openjpeg-build
 CMakeFiles/openjpeg-complete: openjpeg-prefix/src/openjpeg-stamp/openjpeg-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'openjpeg'"
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/CMakeFiles/openjpeg-complete
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'openjpeg'"
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles/openjpeg-complete
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-done
 
 openjpeg-prefix/src/openjpeg-stamp/openjpeg-build: openjpeg-prefix/src/openjpeg-stamp/openjpeg-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'openjpeg'"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && $(MAKE)
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && /usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'openjpeg'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && $(MAKE)
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && /usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-build
 
 openjpeg-prefix/src/openjpeg-stamp/openjpeg-configure: openjpeg-prefix/tmp/openjpeg-cfgcmd.txt
 openjpeg-prefix/src/openjpeg-stamp/openjpeg-configure: openjpeg-prefix/src/openjpeg-stamp/openjpeg-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'openjpeg'"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && /usr/bin/cmake -Wno-dev --no-warn-unused-cli -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/cc -DCMAKE_INSTALL_PREFIX:PATH=/home/micsipc/Downloads/dcm2niix/build "-GUnix Makefiles" /home/micsipc/Downloads/dcm2niix/build/openjpeg
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && /usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'openjpeg'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && /usr/bin/cmake -Wno-dev --no-warn-unused-cli -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/cc -DCMAKE_INSTALL_PREFIX:PATH=/home/micsipc/github/mercure-motionCorr_dicom/build "-GUnix Makefiles" /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && /usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-configure
 
 openjpeg-prefix/src/openjpeg-stamp/openjpeg-download: openjpeg-prefix/src/openjpeg-stamp/openjpeg-gitinfo.txt
 openjpeg-prefix/src/openjpeg-stamp/openjpeg-download: openjpeg-prefix/src/openjpeg-stamp/openjpeg-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'openjpeg'"
-	/usr/bin/cmake -P /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/tmp/openjpeg-gitclone.cmake
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'openjpeg'"
+	/usr/bin/cmake -P /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/tmp/openjpeg-gitclone.cmake
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-download
 
 openjpeg-prefix/src/openjpeg-stamp/openjpeg-install: openjpeg-prefix/src/openjpeg-stamp/openjpeg-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'openjpeg'"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && $(MAKE) install
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg-build && /usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'openjpeg'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && $(MAKE) install
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build && /usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-install
 
 openjpeg-prefix/src/openjpeg-stamp/openjpeg-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'openjpeg'"
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/openjpeg
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/openjpeg-build
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/tmp
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/src/openjpeg-stamp
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/src
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/src/openjpeg-stamp
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'openjpeg'"
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/tmp
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/src/openjpeg-stamp
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/src
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/src/openjpeg-stamp
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-mkdir
 
 openjpeg-prefix/src/openjpeg-stamp/openjpeg-patch: openjpeg-prefix/src/openjpeg-stamp/openjpeg-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'openjpeg'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'openjpeg'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-patch
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/src/openjpeg-stamp/openjpeg-patch
 
 openjpeg-prefix/src/openjpeg-stamp/openjpeg-update: openjpeg-prefix/src/openjpeg-stamp/openjpeg-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing update step for 'openjpeg'"
-	cd /home/micsipc/Downloads/dcm2niix/build/openjpeg && /usr/bin/cmake -P /home/micsipc/Downloads/dcm2niix/build/openjpeg-prefix/tmp/openjpeg-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing update step for 'openjpeg'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg && /usr/bin/cmake -P /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-prefix/tmp/openjpeg-gitupdate.cmake
 
 openjpeg: CMakeFiles/openjpeg
 openjpeg: CMakeFiles/openjpeg-complete
@@ -144,6 +144,6 @@ CMakeFiles/openjpeg.dir/clean:
 .PHONY : CMakeFiles/openjpeg.dir/clean
 
 CMakeFiles/openjpeg.dir/depend:
-	cd /home/micsipc/Downloads/dcm2niix/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micsipc/Downloads/dcm2niix /home/micsipc/Downloads/dcm2niix /home/micsipc/Downloads/dcm2niix/build /home/micsipc/Downloads/dcm2niix/build /home/micsipc/Downloads/dcm2niix/build/CMakeFiles/openjpeg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micsipc/github/mercure-motionCorr_dicom /home/micsipc/github/mercure-motionCorr_dicom /home/micsipc/github/mercure-motionCorr_dicom/build /home/micsipc/github/mercure-motionCorr_dicom/build /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles/openjpeg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openjpeg.dir/depend
 

@@ -1,8 +1,8 @@
 CMakeFiles/dcm2niix.dir/nii_ortho.cpp.o: \
- /home/micsipc/Downloads/dcm2niix/console/nii_ortho.cpp \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_ortho.cpp \
  /usr/include/stdc-predef.h \
- /home/micsipc/Downloads/dcm2niix/console/nifti1.h \
- /home/micsipc/Downloads/dcm2niix/console/nifti1_io_core.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1_io_core.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -25,7 +25,7 @@ CMakeFiles/dcm2niix.dir/nii_ortho.cpp.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/micsipc/Downloads/dcm2niix/console/nii_ortho.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_ortho.h \
  /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
@@ -106,4 +106,4 @@ CMakeFiles/dcm2niix.dir/nii_ortho.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/micsipc/Downloads/dcm2niix/console/print.h
+ /home/micsipc/github/mercure-motionCorr_dicom/console/print.h

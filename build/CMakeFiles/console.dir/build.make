@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/micsipc/Downloads/dcm2niix
+CMAKE_SOURCE_DIR = /home/micsipc/github/mercure-motionCorr_dicom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/micsipc/Downloads/dcm2niix/build
+CMAKE_BINARY_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build
 
 # Utility rule file for console.
 
@@ -76,54 +76,54 @@ CMakeFiles/console-complete: console-prefix/src/console-stamp/console-patch
 CMakeFiles/console-complete: console-prefix/src/console-stamp/console-configure
 CMakeFiles/console-complete: console-prefix/src/console-stamp/console-build
 CMakeFiles/console-complete: console-prefix/src/console-stamp/console-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'console'"
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/CMakeFiles/console-complete
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'console'"
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles/console-complete
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src/console-stamp/console-done
 
 console-prefix/src/console-stamp/console-build: console-prefix/src/console-stamp/console-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'console'"
-	cd /home/micsipc/Downloads/dcm2niix/build/console-build && $(MAKE)
-	cd /home/micsipc/Downloads/dcm2niix/build/console-build && /usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'console'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/console-build && $(MAKE)
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/console-build && /usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src/console-stamp/console-build
 
 console-prefix/src/console-stamp/console-configure: openjpeg-prefix/src/openjpeg-stamp/openjpeg-done
 console-prefix/src/console-stamp/console-configure: zlib-prefix/src/zlib-stamp/zlib-done
 console-prefix/src/console-stamp/console-configure: console-prefix/tmp/console-cfgcmd.txt
 console-prefix/src/console-stamp/console-configure: console-prefix/src/console-stamp/console-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'console'"
-	cd /home/micsipc/Downloads/dcm2niix/build/console-build && /usr/bin/cmake -Wno-dev --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX:PATH=/home/micsipc/Downloads/dcm2niix/build -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/cc -DCMAKE_C_FLAGS:STRING= -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++ -DCMAKE_CXX_FLAGS:STRING= -DCMAKE_VERBOSE_MAKEFILE:BOOL=FALSE -DUSE_STATIC_RUNTIME:BOOL=ON -DUSE_TURBOJPEG:BOOL=OFF -DUSE_JASPER:BOOL=OFF -DUSE_JPEGLS:BOOL=ON -DUSE_JNIFTI:BOOL=ON -DZLIB_IMPLEMENTATION:STRING=Cloudflare -DZLIB_ROOT:PATH=/home/micsipc/Downloads/dcm2niix/build -DUSE_OPENJPEG:BOOL=GitHub -DOpenJPEG_DIR:PATH=/home/micsipc/Downloads/dcm2niix/build/lib/openjpeg-2.1 -DBATCH_VERSION:BOOL=OFF -DYAML-CPP_DIR:PATH= -DBUILD_DCM2NIIXFSLIB:BOOL=OFF "-GUnix Makefiles" /home/micsipc/Downloads/dcm2niix/console
-	cd /home/micsipc/Downloads/dcm2niix/build/console-build && /usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'console'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/console-build && /usr/bin/cmake -Wno-dev --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX:PATH=/home/micsipc/github/mercure-motionCorr_dicom/build -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/cc -DCMAKE_C_FLAGS:STRING= -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++ -DCMAKE_CXX_FLAGS:STRING= -DCMAKE_VERBOSE_MAKEFILE:BOOL=FALSE -DUSE_STATIC_RUNTIME:BOOL=ON -DUSE_TURBOJPEG:BOOL=OFF -DUSE_JASPER:BOOL=OFF -DUSE_JPEGLS:BOOL=ON -DUSE_JNIFTI:BOOL=ON -DZLIB_IMPLEMENTATION:STRING=Cloudflare -DZLIB_ROOT:PATH=/home/micsipc/github/mercure-motionCorr_dicom/build -DUSE_OPENJPEG:BOOL=GitHub -DOpenJPEG_DIR:PATH=/home/micsipc/github/mercure-motionCorr_dicom/build/lib/openjpeg-2.1 -DBATCH_VERSION:BOOL=OFF -DYAML-CPP_DIR:PATH= -DBUILD_DCM2NIIXFSLIB:BOOL=OFF "-GUnix Makefiles" /home/micsipc/github/mercure-motionCorr_dicom/console
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/console-build && /usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src/console-stamp/console-configure
 
 console-prefix/src/console-stamp/console-download: console-prefix/src/console-stamp/console-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'console'"
-	cd /home/micsipc/Downloads/dcm2niix/build/console-prefix/src && /usr/bin/cmake -E echo_append
-	cd /home/micsipc/Downloads/dcm2niix/build/console-prefix/src && /usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'console'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src && /usr/bin/cmake -E echo_append
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src && /usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src/console-stamp/console-download
 
 console-prefix/src/console-stamp/console-install: console-prefix/src/console-stamp/console-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'console'"
-	cd /home/micsipc/Downloads/dcm2niix/build/console-build && $(MAKE) install
-	cd /home/micsipc/Downloads/dcm2niix/build/console-build && /usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'console'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/console-build && $(MAKE) install
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/console-build && /usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src/console-stamp/console-install
 
 console-prefix/src/console-stamp/console-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'console'"
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/console
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/console-build
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/console-prefix
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/console-prefix/tmp
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/console-prefix/src
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'console'"
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/console
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/console-build
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/tmp
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src/console-stamp
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src/console-stamp
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src/console-stamp/console-mkdir
 
 console-prefix/src/console-stamp/console-patch: console-prefix/src/console-stamp/console-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'console'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'console'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-patch
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src/console-stamp/console-patch
 
 console-prefix/src/console-stamp/console-update: console-prefix/src/console-stamp/console-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'console'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'console'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/console-prefix/src/console-stamp/console-update
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/console-prefix/src/console-stamp/console-update
 
 console: CMakeFiles/console
 console: CMakeFiles/console-complete
@@ -146,6 +146,6 @@ CMakeFiles/console.dir/clean:
 .PHONY : CMakeFiles/console.dir/clean
 
 CMakeFiles/console.dir/depend:
-	cd /home/micsipc/Downloads/dcm2niix/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micsipc/Downloads/dcm2niix /home/micsipc/Downloads/dcm2niix /home/micsipc/Downloads/dcm2niix/build /home/micsipc/Downloads/dcm2niix/build /home/micsipc/Downloads/dcm2niix/build/CMakeFiles/console.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micsipc/github/mercure-motionCorr_dicom /home/micsipc/github/mercure-motionCorr_dicom /home/micsipc/github/mercure-motionCorr_dicom/build /home/micsipc/github/mercure-motionCorr_dicom/build /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles/console.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/console.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/micsipc/Downloads/dcm2niix
+CMAKE_SOURCE_DIR = /home/micsipc/github/mercure-motionCorr_dicom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/micsipc/Downloads/dcm2niix/build
+CMAKE_BINARY_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build
 
 # Utility rule file for zlib.
 
@@ -76,52 +76,52 @@ CMakeFiles/zlib-complete: zlib-prefix/src/zlib-stamp/zlib-patch
 CMakeFiles/zlib-complete: zlib-prefix/src/zlib-stamp/zlib-configure
 CMakeFiles/zlib-complete: zlib-prefix/src/zlib-stamp/zlib-build
 CMakeFiles/zlib-complete: zlib-prefix/src/zlib-stamp/zlib-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'zlib'"
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/CMakeFiles/zlib-complete
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'zlib'"
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles/zlib-complete
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/src/zlib-stamp/zlib-done
 
 zlib-prefix/src/zlib-stamp/zlib-build: zlib-prefix/src/zlib-stamp/zlib-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'zlib'"
-	cd /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build && $(MAKE)
-	cd /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build && /usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'zlib'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build && $(MAKE)
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build && /usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/src/zlib-stamp/zlib-build
 
 zlib-prefix/src/zlib-stamp/zlib-configure: zlib-prefix/tmp/zlib-cfgcmd.txt
 zlib-prefix/src/zlib-stamp/zlib-configure: zlib-prefix/src/zlib-stamp/zlib-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'zlib'"
-	cd /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build && /usr/bin/cmake -Wno-dev -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/cc -DCMAKE_INSTALL_PREFIX:PATH=/home/micsipc/Downloads/dcm2niix/build "-GUnix Makefiles" /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib
-	cd /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build && /usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'zlib'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build && /usr/bin/cmake -Wno-dev -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/cc -DCMAKE_INSTALL_PREFIX:PATH=/home/micsipc/github/mercure-motionCorr_dicom/build "-GUnix Makefiles" /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build && /usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/src/zlib-stamp/zlib-configure
 
 zlib-prefix/src/zlib-stamp/zlib-download: zlib-prefix/src/zlib-stamp/zlib-gitinfo.txt
 zlib-prefix/src/zlib-stamp/zlib-download: zlib-prefix/src/zlib-stamp/zlib-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'zlib'"
-	/usr/bin/cmake -P /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/tmp/zlib-gitclone.cmake
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'zlib'"
+	/usr/bin/cmake -P /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/tmp/zlib-gitclone.cmake
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/src/zlib-stamp/zlib-download
 
 zlib-prefix/src/zlib-stamp/zlib-install: zlib-prefix/src/zlib-stamp/zlib-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'zlib'"
-	cd /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build && $(MAKE) install
-	cd /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build && /usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'zlib'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build && $(MAKE) install
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build && /usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/src/zlib-stamp/zlib-install
 
 zlib-prefix/src/zlib-stamp/zlib-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'zlib'"
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/zlib-prefix
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/tmp
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src
-	/usr/bin/cmake -E make_directory /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'zlib'"
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/tmp
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/src/zlib-stamp
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/src
+	/usr/bin/cmake -E make_directory /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/src/zlib-stamp
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/src/zlib-stamp/zlib-mkdir
 
 zlib-prefix/src/zlib-stamp/zlib-patch: zlib-prefix/src/zlib-stamp/zlib-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'zlib'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'zlib'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/src/zlib-stamp/zlib-patch
+	/usr/bin/cmake -E touch /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/src/zlib-stamp/zlib-patch
 
 zlib-prefix/src/zlib-stamp/zlib-update: zlib-prefix/src/zlib-stamp/zlib-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing update step for 'zlib'"
-	cd /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib && /usr/bin/cmake -P /home/micsipc/Downloads/dcm2niix/build/zlib-prefix/tmp/zlib-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing update step for 'zlib'"
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib && /usr/bin/cmake -P /home/micsipc/github/mercure-motionCorr_dicom/build/zlib-prefix/tmp/zlib-gitupdate.cmake
 
 zlib: CMakeFiles/zlib
 zlib: CMakeFiles/zlib-complete
@@ -144,6 +144,6 @@ CMakeFiles/zlib.dir/clean:
 .PHONY : CMakeFiles/zlib.dir/clean
 
 CMakeFiles/zlib.dir/depend:
-	cd /home/micsipc/Downloads/dcm2niix/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micsipc/Downloads/dcm2niix /home/micsipc/Downloads/dcm2niix /home/micsipc/Downloads/dcm2niix/build /home/micsipc/Downloads/dcm2niix/build /home/micsipc/Downloads/dcm2niix/build/CMakeFiles/zlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micsipc/github/mercure-motionCorr_dicom /home/micsipc/github/mercure-motionCorr_dicom /home/micsipc/github/mercure-motionCorr_dicom/build /home/micsipc/github/mercure-motionCorr_dicom/build /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles/zlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/zlib.dir/depend
 

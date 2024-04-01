@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2
+C_INCLUDES = -I/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2
 
 C_FLAGS = -ffast-math -O3 -DNDEBUG
 

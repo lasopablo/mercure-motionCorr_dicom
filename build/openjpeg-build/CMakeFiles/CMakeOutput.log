@@ -10,16 +10,16 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/3.22.1/CompilerIdC/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e6b1/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_1e6b1.dir/build.make CMakeFiles/cmTC_1e6b1.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_48541/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_48541.dir/build.make CMakeFiles/cmTC_48541.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -29,8 +29,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e6b1.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1e6b1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmCm76L.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_48541.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_48541.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFj8UB7.s
 GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -50,15 +50,15 @@ GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e6b1.dir/'
- as -v --64 -o CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o /tmp/ccmCm76L.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_48541.dir/'
+ as -v --64 -o CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o /tmp/ccFj8UB7.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_1e6b1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e6b1.dir/link.txt --verbose=1
-/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o -o cmTC_1e6b1 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_48541
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48541.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o -o cmTC_48541 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -71,11 +71,11 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1e6b1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1e6b1.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccn77hNb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1e6b1 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1e6b1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1e6b1.'
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48541' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_48541.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd84c8O.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_48541 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48541' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_48541.'
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
@@ -96,13 +96,13 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e6b1/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_1e6b1.dir/build.make CMakeFiles/cmTC_1e6b1.dir/build]
-  ignore line: [gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_48541/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_48541.dir/build.make CMakeFiles/cmTC_48541.dir/build]
+  ignore line: [gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -112,8 +112,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e6b1.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1e6b1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmCm76L.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_48541.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_48541.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFj8UB7.s]
   ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -133,15 +133,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e6b1.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o /tmp/ccmCm76L.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_48541.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o /tmp/ccFj8UB7.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_1e6b1]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e6b1.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o -o cmTC_1e6b1 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_48541]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48541.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o -o cmTC_48541 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -154,13 +154,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1e6b1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1e6b1.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccn77hNb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1e6b1 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48541' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_48541.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd84c8O.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_48541 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccn77hNb.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccd84c8O.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -179,7 +179,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1e6b1] ==> ignore
+    arg [cmTC_48541] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -191,7 +191,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-    arg [CMakeFiles/cmTC_1e6b1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_48541.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -223,258 +223,258 @@ Parsed C implicit link information from above output:
 
 
 Determining if the include file string.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_096f7/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_096f7.dir/build.make CMakeFiles/cmTC_096f7.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_096f7.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_096f7.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_096f7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_096f7.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_096f7.dir/CheckIncludeFile.c.o -o cmTC_096f7 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75f39/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_75f39.dir/build.make CMakeFiles/cmTC_75f39.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75f39.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_75f39.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_75f39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75f39.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_75f39.dir/CheckIncludeFile.c.o -o cmTC_75f39 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file memory.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f00b9/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_f00b9.dir/build.make CMakeFiles/cmTC_f00b9.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f00b9.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f00b9.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f00b9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f00b9.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_f00b9.dir/CheckIncludeFile.c.o -o cmTC_f00b9 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dbc13/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_dbc13.dir/build.make CMakeFiles/cmTC_dbc13.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbc13.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dbc13.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dbc13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbc13.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_dbc13.dir/CheckIncludeFile.c.o -o cmTC_dbc13 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stdlib.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61a7c/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_61a7c.dir/build.make CMakeFiles/cmTC_61a7c.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_61a7c.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_61a7c.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_61a7c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61a7c.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_61a7c.dir/CheckIncludeFile.c.o -o cmTC_61a7c 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_975ae/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_975ae.dir/build.make CMakeFiles/cmTC_975ae.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_975ae.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_975ae.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_975ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_975ae.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_975ae.dir/CheckIncludeFile.c.o -o cmTC_975ae 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stdio.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_135fe/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_135fe.dir/build.make CMakeFiles/cmTC_135fe.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_135fe.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_135fe.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_135fe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_135fe.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_135fe.dir/CheckIncludeFile.c.o -o cmTC_135fe 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c8c7b/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_c8c7b.dir/build.make CMakeFiles/cmTC_c8c7b.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8c7b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c8c7b.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c8c7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8c7b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c8c7b.dir/CheckIncludeFile.c.o -o cmTC_c8c7b 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file math.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9442b/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_9442b.dir/build.make CMakeFiles/cmTC_9442b.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9442b.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_9442b.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_9442b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9442b.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_9442b.dir/CheckIncludeFile.c.o -o cmTC_9442b 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c076/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_7c076.dir/build.make CMakeFiles/cmTC_7c076.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c076.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7c076.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7c076
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c076.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7c076.dir/CheckIncludeFile.c.o -o cmTC_7c076 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file float.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd6bf/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_bd6bf.dir/build.make CMakeFiles/cmTC_bd6bf.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bd6bf.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_bd6bf.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_bd6bf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd6bf.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_bd6bf.dir/CheckIncludeFile.c.o -o cmTC_bd6bf 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5bb6/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_c5bb6.dir/build.make CMakeFiles/cmTC_c5bb6.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5bb6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c5bb6.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c5bb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5bb6.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c5bb6.dir/CheckIncludeFile.c.o -o cmTC_c5bb6 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file time.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1eafc/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_1eafc.dir/build.make CMakeFiles/cmTC_1eafc.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1eafc.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1eafc.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_1eafc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eafc.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_1eafc.dir/CheckIncludeFile.c.o -o cmTC_1eafc 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4dbdb/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_4dbdb.dir/build.make CMakeFiles/cmTC_4dbdb.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4dbdb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4dbdb.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4dbdb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dbdb.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4dbdb.dir/CheckIncludeFile.c.o -o cmTC_4dbdb 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stdarg.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_72f3a/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_72f3a.dir/build.make CMakeFiles/cmTC_72f3a.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_72f3a.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_72f3a.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_72f3a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72f3a.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_72f3a.dir/CheckIncludeFile.c.o -o cmTC_72f3a 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ecdce/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_ecdce.dir/build.make CMakeFiles/cmTC_ecdce.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecdce.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ecdce.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ecdce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecdce.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_ecdce.dir/CheckIncludeFile.c.o -o cmTC_ecdce 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file ctype.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f163e/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_f163e.dir/build.make CMakeFiles/cmTC_f163e.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f163e.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f163e.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f163e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f163e.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_f163e.dir/CheckIncludeFile.c.o -o cmTC_f163e 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8551/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_a8551.dir/build.make CMakeFiles/cmTC_a8551.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8551.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a8551.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a8551
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8551.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a8551.dir/CheckIncludeFile.c.o -o cmTC_a8551 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file assert.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7205e/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_7205e.dir/build.make CMakeFiles/cmTC_7205e.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7205e.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_7205e.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_7205e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7205e.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_7205e.dir/CheckIncludeFile.c.o -o cmTC_7205e 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_34f26/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_34f26.dir/build.make CMakeFiles/cmTC_34f26.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34f26.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_34f26.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_34f26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f26.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_34f26.dir/CheckIncludeFile.c.o -o cmTC_34f26 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7522/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_a7522.dir/build.make CMakeFiles/cmTC_a7522.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a7522.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a7522.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a7522
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7522.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_a7522.dir/CheckIncludeFile.c.o -o cmTC_a7522 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8a55/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_d8a55.dir/build.make CMakeFiles/cmTC_d8a55.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8a55.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d8a55.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d8a55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8a55.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d8a55.dir/CheckIncludeFile.c.o -o cmTC_d8a55 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file inttypes.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9a6cb/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_9a6cb.dir/build.make CMakeFiles/cmTC_9a6cb.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9a6cb.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_9a6cb.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_9a6cb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a6cb.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_9a6cb.dir/CheckIncludeFile.c.o -o cmTC_9a6cb 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_085f3/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_085f3.dir/build.make CMakeFiles/cmTC_085f3.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_085f3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_085f3.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_085f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_085f3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_085f3.dir/CheckIncludeFile.c.o -o cmTC_085f3 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file strings.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9abb9/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_9abb9.dir/build.make CMakeFiles/cmTC_9abb9.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9abb9.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_9abb9.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_9abb9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9abb9.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_9abb9.dir/CheckIncludeFile.c.o -o cmTC_9abb9 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_96dec/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_96dec.dir/build.make CMakeFiles/cmTC_96dec.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96dec.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_96dec.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_96dec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96dec.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_96dec.dir/CheckIncludeFile.c.o -o cmTC_96dec 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file sys/stat.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e603/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_4e603.dir/build.make CMakeFiles/cmTC_4e603.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4e603.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_4e603.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_4e603
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e603.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_4e603.dir/CheckIncludeFile.c.o -o cmTC_4e603 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cfe6e/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_cfe6e.dir/build.make CMakeFiles/cmTC_cfe6e.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfe6e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cfe6e.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cfe6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfe6e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_cfe6e.dir/CheckIncludeFile.c.o -o cmTC_cfe6e 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_00fe9/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_00fe9.dir/build.make CMakeFiles/cmTC_00fe9.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_00fe9.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_00fe9.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_00fe9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00fe9.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_00fe9.dir/CheckIncludeFile.c.o -o cmTC_00fe9 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cf05b/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_cf05b.dir/build.make CMakeFiles/cmTC_cf05b.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf05b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cf05b.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cf05b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf05b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_cf05b.dir/CheckIncludeFile.c.o -o cmTC_cf05b 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file unistd.h exists passed with the following output:
-Change Dir: /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp
+Change Dir: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a62f4/fast && gmake[3]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_a62f4.dir/build.make CMakeFiles/cmTC_a62f4.dir/build
-gmake[4]: Entering directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a62f4.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a62f4.dir/CheckIncludeFile.c.o -c /home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a62f4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a62f4.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_a62f4.dir/CheckIncludeFile.c.o -o cmTC_a62f4 
-gmake[4]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90c38/fast && gmake[3]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_90c38.dir/build.make CMakeFiles/cmTC_90c38.dir/build
+gmake[4]: Entering directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90c38.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_90c38.dir/CheckIncludeFile.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90c38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90c38.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_90c38.dir/CheckIncludeFile.c.o -o cmTC_90c38 
+gmake[4]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/CMakeTmp'
 
 
 

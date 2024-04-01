@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/micsipc/Downloads/dcm2niix
+CMAKE_SOURCE_DIR = /home/micsipc/github/mercure-motionCorr_dicom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/micsipc/Downloads/dcm2niix/build
+CMAKE_BINARY_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/console.dir/clean
 CMakeFiles/openjpeg.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openjpeg.dir/build.make CMakeFiles/openjpeg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openjpeg.dir/build.make CMakeFiles/openjpeg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Built target openjpeg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Built target openjpeg"
 .PHONY : CMakeFiles/openjpeg.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/openjpeg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/Downloads/dcm2niix/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/openjpeg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/Downloads/dcm2niix/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles 0
 .PHONY : CMakeFiles/openjpeg.dir/rule
 
 # Convenience name for target.
@@ -111,14 +111,14 @@ CMakeFiles/openjpeg.dir/clean:
 CMakeFiles/zlib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zlib.dir/build.make CMakeFiles/zlib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zlib.dir/build.make CMakeFiles/zlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=17,18,19,20,21,22,23,24 "Built target zlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=17,18,19,20,21,22,23,24 "Built target zlib"
 .PHONY : CMakeFiles/zlib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/zlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/Downloads/dcm2niix/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/Downloads/dcm2niix/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles 0
 .PHONY : CMakeFiles/zlib.dir/rule
 
 # Convenience name for target.
@@ -138,14 +138,14 @@ CMakeFiles/console.dir/all: CMakeFiles/openjpeg.dir/all
 CMakeFiles/console.dir/all: CMakeFiles/zlib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/micsipc/Downloads/dcm2niix/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target console"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target console"
 .PHONY : CMakeFiles/console.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/console.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/Downloads/dcm2niix/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/console.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/Downloads/dcm2niix/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micsipc/github/mercure-motionCorr_dicom/build/CMakeFiles 0
 .PHONY : CMakeFiles/console.dir/rule
 
 # Convenience name for target.

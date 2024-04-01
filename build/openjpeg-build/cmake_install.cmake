@@ -1,8 +1,8 @@
-# Install script for directory: /home/micsipc/Downloads/dcm2niix/build/openjpeg
+# Install script for directory: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/micsipc/Downloads/dcm2niix/build")
+  set(CMAKE_INSTALL_PREFIX "/home/micsipc/github/mercure-motionCorr_dicom/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openjpeg-2.1/OpenJPEGTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openjpeg-2.1/OpenJPEGTargets.cmake"
-         "/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/Export/lib/openjpeg-2.1/OpenJPEGTargets.cmake")
+         "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/Export/lib/openjpeg-2.1/OpenJPEGTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openjpeg-2.1/OpenJPEGTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -55,24 +55,24 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openjpeg-2.1" TYPE FILE FILES "/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/Export/lib/openjpeg-2.1/OpenJPEGTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openjpeg-2.1" TYPE FILE FILES "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/Export/lib/openjpeg-2.1/OpenJPEGTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openjpeg-2.1" TYPE FILE FILES "/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/CMakeFiles/Export/lib/openjpeg-2.1/OpenJPEGTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openjpeg-2.1" TYPE FILE FILES "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/CMakeFiles/Export/lib/openjpeg-2.1/OpenJPEGTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openjpeg-2.1" TYPE FILE FILES "/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/OpenJPEGConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openjpeg-2.1" TYPE FILE FILES "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/OpenJPEGConfig.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/libopenjp2.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/libopenjp2.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/cmake_install.cmake")
-  include("/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/wrapping/cmake_install.cmake")
+  include("/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/cmake_install.cmake")
+  include("/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/wrapping/cmake_install.cmake")
 
 endif()
 
@@ -84,5 +84,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

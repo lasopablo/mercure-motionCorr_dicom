@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DADLER32_SIMD_SSSE3 -DHAS_PCLMUL -DHAS_SSE2 -DHAS_SSE42 -DHAS_SSSE3 -DINFLATE_CHUNK_READ_64LE -DINFLATE_CHUNK_SIMD_SSE2 -D_LARGEFILE64_SOURCE=1
 
-C_INCLUDES = -I/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build -I/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib
+C_INCLUDES = -I/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build -I/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib
 
 C_FLAGS =  -static-libgcc -msse2 -mssse3 -msse4.2 -mpclmul -O3 -DNDEBUG -static-libgcc -fPIC
 

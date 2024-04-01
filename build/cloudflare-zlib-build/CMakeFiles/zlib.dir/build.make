@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib
+CMAKE_SOURCE_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build
+CMAKE_BINARY_DIR = /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/zlib.dir/depend.make
@@ -70,256 +70,256 @@ include CMakeFiles/zlib.dir/progress.make
 include CMakeFiles/zlib.dir/flags.make
 
 CMakeFiles/zlib.dir/adler32.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/adler32.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/adler32.c
+CMakeFiles/zlib.dir/adler32.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/adler32.c
 CMakeFiles/zlib.dir/adler32.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zlib.dir/adler32.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/adler32.c.o -MF CMakeFiles/zlib.dir/adler32.c.o.d -o CMakeFiles/zlib.dir/adler32.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/adler32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zlib.dir/adler32.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/adler32.c.o -MF CMakeFiles/zlib.dir/adler32.c.o.d -o CMakeFiles/zlib.dir/adler32.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/adler32.c
 
 CMakeFiles/zlib.dir/adler32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/adler32.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/adler32.c > CMakeFiles/zlib.dir/adler32.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/adler32.c > CMakeFiles/zlib.dir/adler32.c.i
 
 CMakeFiles/zlib.dir/adler32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/adler32.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/adler32.c -o CMakeFiles/zlib.dir/adler32.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/adler32.c -o CMakeFiles/zlib.dir/adler32.c.s
 
 CMakeFiles/zlib.dir/compress.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/compress.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/compress.c
+CMakeFiles/zlib.dir/compress.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/compress.c
 CMakeFiles/zlib.dir/compress.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/zlib.dir/compress.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/compress.c.o -MF CMakeFiles/zlib.dir/compress.c.o.d -o CMakeFiles/zlib.dir/compress.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/compress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/zlib.dir/compress.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/compress.c.o -MF CMakeFiles/zlib.dir/compress.c.o.d -o CMakeFiles/zlib.dir/compress.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/compress.c
 
 CMakeFiles/zlib.dir/compress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/compress.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/compress.c > CMakeFiles/zlib.dir/compress.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/compress.c > CMakeFiles/zlib.dir/compress.c.i
 
 CMakeFiles/zlib.dir/compress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/compress.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/compress.c -o CMakeFiles/zlib.dir/compress.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/compress.c -o CMakeFiles/zlib.dir/compress.c.s
 
 CMakeFiles/zlib.dir/crc32.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/crc32.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/crc32.c
+CMakeFiles/zlib.dir/crc32.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/crc32.c
 CMakeFiles/zlib.dir/crc32.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/zlib.dir/crc32.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/crc32.c.o -MF CMakeFiles/zlib.dir/crc32.c.o.d -o CMakeFiles/zlib.dir/crc32.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/zlib.dir/crc32.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/crc32.c.o -MF CMakeFiles/zlib.dir/crc32.c.o.d -o CMakeFiles/zlib.dir/crc32.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/crc32.c
 
 CMakeFiles/zlib.dir/crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/crc32.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/crc32.c > CMakeFiles/zlib.dir/crc32.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/crc32.c > CMakeFiles/zlib.dir/crc32.c.i
 
 CMakeFiles/zlib.dir/crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/crc32.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/crc32.c -o CMakeFiles/zlib.dir/crc32.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/crc32.c -o CMakeFiles/zlib.dir/crc32.c.s
 
 CMakeFiles/zlib.dir/deflate.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/deflate.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/deflate.c
+CMakeFiles/zlib.dir/deflate.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/deflate.c
 CMakeFiles/zlib.dir/deflate.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/zlib.dir/deflate.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/deflate.c.o -MF CMakeFiles/zlib.dir/deflate.c.o.d -o CMakeFiles/zlib.dir/deflate.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/deflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/zlib.dir/deflate.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/deflate.c.o -MF CMakeFiles/zlib.dir/deflate.c.o.d -o CMakeFiles/zlib.dir/deflate.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/deflate.c
 
 CMakeFiles/zlib.dir/deflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/deflate.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/deflate.c > CMakeFiles/zlib.dir/deflate.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/deflate.c > CMakeFiles/zlib.dir/deflate.c.i
 
 CMakeFiles/zlib.dir/deflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/deflate.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/deflate.c -o CMakeFiles/zlib.dir/deflate.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/deflate.c -o CMakeFiles/zlib.dir/deflate.c.s
 
 CMakeFiles/zlib.dir/gzclose.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/gzclose.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzclose.c
+CMakeFiles/zlib.dir/gzclose.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzclose.c
 CMakeFiles/zlib.dir/gzclose.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/zlib.dir/gzclose.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/gzclose.c.o -MF CMakeFiles/zlib.dir/gzclose.c.o.d -o CMakeFiles/zlib.dir/gzclose.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzclose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/zlib.dir/gzclose.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/gzclose.c.o -MF CMakeFiles/zlib.dir/gzclose.c.o.d -o CMakeFiles/zlib.dir/gzclose.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzclose.c
 
 CMakeFiles/zlib.dir/gzclose.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzclose.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzclose.c > CMakeFiles/zlib.dir/gzclose.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzclose.c > CMakeFiles/zlib.dir/gzclose.c.i
 
 CMakeFiles/zlib.dir/gzclose.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzclose.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzclose.c -o CMakeFiles/zlib.dir/gzclose.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzclose.c -o CMakeFiles/zlib.dir/gzclose.c.s
 
 CMakeFiles/zlib.dir/gzlib.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/gzlib.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzlib.c
+CMakeFiles/zlib.dir/gzlib.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzlib.c
 CMakeFiles/zlib.dir/gzlib.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/zlib.dir/gzlib.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/gzlib.c.o -MF CMakeFiles/zlib.dir/gzlib.c.o.d -o CMakeFiles/zlib.dir/gzlib.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/zlib.dir/gzlib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/gzlib.c.o -MF CMakeFiles/zlib.dir/gzlib.c.o.d -o CMakeFiles/zlib.dir/gzlib.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzlib.c
 
 CMakeFiles/zlib.dir/gzlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzlib.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzlib.c > CMakeFiles/zlib.dir/gzlib.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzlib.c > CMakeFiles/zlib.dir/gzlib.c.i
 
 CMakeFiles/zlib.dir/gzlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzlib.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzlib.c -o CMakeFiles/zlib.dir/gzlib.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzlib.c -o CMakeFiles/zlib.dir/gzlib.c.s
 
 CMakeFiles/zlib.dir/gzread.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/gzread.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzread.c
+CMakeFiles/zlib.dir/gzread.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzread.c
 CMakeFiles/zlib.dir/gzread.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/zlib.dir/gzread.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/gzread.c.o -MF CMakeFiles/zlib.dir/gzread.c.o.d -o CMakeFiles/zlib.dir/gzread.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/zlib.dir/gzread.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/gzread.c.o -MF CMakeFiles/zlib.dir/gzread.c.o.d -o CMakeFiles/zlib.dir/gzread.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzread.c
 
 CMakeFiles/zlib.dir/gzread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzread.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzread.c > CMakeFiles/zlib.dir/gzread.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzread.c > CMakeFiles/zlib.dir/gzread.c.i
 
 CMakeFiles/zlib.dir/gzread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzread.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzread.c -o CMakeFiles/zlib.dir/gzread.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzread.c -o CMakeFiles/zlib.dir/gzread.c.s
 
 CMakeFiles/zlib.dir/gzwrite.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/gzwrite.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzwrite.c
+CMakeFiles/zlib.dir/gzwrite.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzwrite.c
 CMakeFiles/zlib.dir/gzwrite.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/zlib.dir/gzwrite.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/gzwrite.c.o -MF CMakeFiles/zlib.dir/gzwrite.c.o.d -o CMakeFiles/zlib.dir/gzwrite.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/zlib.dir/gzwrite.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/gzwrite.c.o -MF CMakeFiles/zlib.dir/gzwrite.c.o.d -o CMakeFiles/zlib.dir/gzwrite.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzwrite.c
 
 CMakeFiles/zlib.dir/gzwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzwrite.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzwrite.c > CMakeFiles/zlib.dir/gzwrite.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzwrite.c > CMakeFiles/zlib.dir/gzwrite.c.i
 
 CMakeFiles/zlib.dir/gzwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzwrite.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/gzwrite.c -o CMakeFiles/zlib.dir/gzwrite.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/gzwrite.c -o CMakeFiles/zlib.dir/gzwrite.c.s
 
 CMakeFiles/zlib.dir/inflate.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/inflate.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inflate.c
+CMakeFiles/zlib.dir/inflate.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inflate.c
 CMakeFiles/zlib.dir/inflate.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/zlib.dir/inflate.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/inflate.c.o -MF CMakeFiles/zlib.dir/inflate.c.o.d -o CMakeFiles/zlib.dir/inflate.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/zlib.dir/inflate.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/inflate.c.o -MF CMakeFiles/zlib.dir/inflate.c.o.d -o CMakeFiles/zlib.dir/inflate.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inflate.c
 
 CMakeFiles/zlib.dir/inflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inflate.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inflate.c > CMakeFiles/zlib.dir/inflate.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inflate.c > CMakeFiles/zlib.dir/inflate.c.i
 
 CMakeFiles/zlib.dir/inflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inflate.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inflate.c -o CMakeFiles/zlib.dir/inflate.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inflate.c -o CMakeFiles/zlib.dir/inflate.c.s
 
 CMakeFiles/zlib.dir/infback.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/infback.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/infback.c
+CMakeFiles/zlib.dir/infback.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/infback.c
 CMakeFiles/zlib.dir/infback.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/zlib.dir/infback.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/infback.c.o -MF CMakeFiles/zlib.dir/infback.c.o.d -o CMakeFiles/zlib.dir/infback.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/infback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/zlib.dir/infback.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/infback.c.o -MF CMakeFiles/zlib.dir/infback.c.o.d -o CMakeFiles/zlib.dir/infback.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/infback.c
 
 CMakeFiles/zlib.dir/infback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/infback.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/infback.c > CMakeFiles/zlib.dir/infback.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/infback.c > CMakeFiles/zlib.dir/infback.c.i
 
 CMakeFiles/zlib.dir/infback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/infback.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/infback.c -o CMakeFiles/zlib.dir/infback.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/infback.c -o CMakeFiles/zlib.dir/infback.c.s
 
 CMakeFiles/zlib.dir/inftrees.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/inftrees.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inftrees.c
+CMakeFiles/zlib.dir/inftrees.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inftrees.c
 CMakeFiles/zlib.dir/inftrees.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/zlib.dir/inftrees.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/inftrees.c.o -MF CMakeFiles/zlib.dir/inftrees.c.o.d -o CMakeFiles/zlib.dir/inftrees.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inftrees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/zlib.dir/inftrees.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/inftrees.c.o -MF CMakeFiles/zlib.dir/inftrees.c.o.d -o CMakeFiles/zlib.dir/inftrees.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inftrees.c
 
 CMakeFiles/zlib.dir/inftrees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inftrees.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inftrees.c > CMakeFiles/zlib.dir/inftrees.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inftrees.c > CMakeFiles/zlib.dir/inftrees.c.i
 
 CMakeFiles/zlib.dir/inftrees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inftrees.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inftrees.c -o CMakeFiles/zlib.dir/inftrees.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inftrees.c -o CMakeFiles/zlib.dir/inftrees.c.s
 
 CMakeFiles/zlib.dir/inffast.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/inffast.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inffast.c
+CMakeFiles/zlib.dir/inffast.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inffast.c
 CMakeFiles/zlib.dir/inffast.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/zlib.dir/inffast.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/inffast.c.o -MF CMakeFiles/zlib.dir/inffast.c.o.d -o CMakeFiles/zlib.dir/inffast.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inffast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/zlib.dir/inffast.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/inffast.c.o -MF CMakeFiles/zlib.dir/inffast.c.o.d -o CMakeFiles/zlib.dir/inffast.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inffast.c
 
 CMakeFiles/zlib.dir/inffast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inffast.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inffast.c > CMakeFiles/zlib.dir/inffast.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inffast.c > CMakeFiles/zlib.dir/inffast.c.i
 
 CMakeFiles/zlib.dir/inffast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inffast.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inffast.c -o CMakeFiles/zlib.dir/inffast.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inffast.c -o CMakeFiles/zlib.dir/inffast.c.s
 
 CMakeFiles/zlib.dir/trees.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/trees.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/trees.c
+CMakeFiles/zlib.dir/trees.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/trees.c
 CMakeFiles/zlib.dir/trees.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/zlib.dir/trees.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/trees.c.o -MF CMakeFiles/zlib.dir/trees.c.o.d -o CMakeFiles/zlib.dir/trees.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/trees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/zlib.dir/trees.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/trees.c.o -MF CMakeFiles/zlib.dir/trees.c.o.d -o CMakeFiles/zlib.dir/trees.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/trees.c
 
 CMakeFiles/zlib.dir/trees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/trees.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/trees.c > CMakeFiles/zlib.dir/trees.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/trees.c > CMakeFiles/zlib.dir/trees.c.i
 
 CMakeFiles/zlib.dir/trees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/trees.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/trees.c -o CMakeFiles/zlib.dir/trees.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/trees.c -o CMakeFiles/zlib.dir/trees.c.s
 
 CMakeFiles/zlib.dir/uncompr.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/uncompr.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/uncompr.c
+CMakeFiles/zlib.dir/uncompr.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/uncompr.c
 CMakeFiles/zlib.dir/uncompr.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/zlib.dir/uncompr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/uncompr.c.o -MF CMakeFiles/zlib.dir/uncompr.c.o.d -o CMakeFiles/zlib.dir/uncompr.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/uncompr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/zlib.dir/uncompr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/uncompr.c.o -MF CMakeFiles/zlib.dir/uncompr.c.o.d -o CMakeFiles/zlib.dir/uncompr.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/uncompr.c
 
 CMakeFiles/zlib.dir/uncompr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/uncompr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/uncompr.c > CMakeFiles/zlib.dir/uncompr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/uncompr.c > CMakeFiles/zlib.dir/uncompr.c.i
 
 CMakeFiles/zlib.dir/uncompr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/uncompr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/uncompr.c -o CMakeFiles/zlib.dir/uncompr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/uncompr.c -o CMakeFiles/zlib.dir/uncompr.c.s
 
 CMakeFiles/zlib.dir/zutil.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/zutil.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zutil.c
+CMakeFiles/zlib.dir/zutil.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zutil.c
 CMakeFiles/zlib.dir/zutil.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/zlib.dir/zutil.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/zutil.c.o -MF CMakeFiles/zlib.dir/zutil.c.o.d -o CMakeFiles/zlib.dir/zutil.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/zlib.dir/zutil.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/zutil.c.o -MF CMakeFiles/zlib.dir/zutil.c.o.d -o CMakeFiles/zlib.dir/zutil.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zutil.c
 
 CMakeFiles/zlib.dir/zutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/zutil.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zutil.c > CMakeFiles/zlib.dir/zutil.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zutil.c > CMakeFiles/zlib.dir/zutil.c.i
 
 CMakeFiles/zlib.dir/zutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/zutil.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zutil.c -o CMakeFiles/zlib.dir/zutil.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zutil.c -o CMakeFiles/zlib.dir/zutil.c.s
 
 CMakeFiles/zlib.dir/inffast_chunk.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/inffast_chunk.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inffast_chunk.c
+CMakeFiles/zlib.dir/inffast_chunk.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inffast_chunk.c
 CMakeFiles/zlib.dir/inffast_chunk.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/zlib.dir/inffast_chunk.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/inffast_chunk.c.o -MF CMakeFiles/zlib.dir/inffast_chunk.c.o.d -o CMakeFiles/zlib.dir/inffast_chunk.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inffast_chunk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/zlib.dir/inffast_chunk.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/inffast_chunk.c.o -MF CMakeFiles/zlib.dir/inffast_chunk.c.o.d -o CMakeFiles/zlib.dir/inffast_chunk.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inffast_chunk.c
 
 CMakeFiles/zlib.dir/inffast_chunk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inffast_chunk.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inffast_chunk.c > CMakeFiles/zlib.dir/inffast_chunk.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inffast_chunk.c > CMakeFiles/zlib.dir/inffast_chunk.c.i
 
 CMakeFiles/zlib.dir/inffast_chunk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inffast_chunk.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/inffast_chunk.c -o CMakeFiles/zlib.dir/inffast_chunk.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/inffast_chunk.c -o CMakeFiles/zlib.dir/inffast_chunk.c.s
 
 CMakeFiles/zlib.dir/adler32_simd.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/adler32_simd.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/adler32_simd.c
+CMakeFiles/zlib.dir/adler32_simd.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/adler32_simd.c
 CMakeFiles/zlib.dir/adler32_simd.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/zlib.dir/adler32_simd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/adler32_simd.c.o -MF CMakeFiles/zlib.dir/adler32_simd.c.o.d -o CMakeFiles/zlib.dir/adler32_simd.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/adler32_simd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/zlib.dir/adler32_simd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/adler32_simd.c.o -MF CMakeFiles/zlib.dir/adler32_simd.c.o.d -o CMakeFiles/zlib.dir/adler32_simd.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/adler32_simd.c
 
 CMakeFiles/zlib.dir/adler32_simd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/adler32_simd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/adler32_simd.c > CMakeFiles/zlib.dir/adler32_simd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/adler32_simd.c > CMakeFiles/zlib.dir/adler32_simd.c.i
 
 CMakeFiles/zlib.dir/adler32_simd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/adler32_simd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/adler32_simd.c -o CMakeFiles/zlib.dir/adler32_simd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/adler32_simd.c -o CMakeFiles/zlib.dir/adler32_simd.c.s
 
 CMakeFiles/zlib.dir/crc32_simd.c.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/crc32_simd.c.o: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/crc32_simd.c
+CMakeFiles/zlib.dir/crc32_simd.c.o: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/crc32_simd.c
 CMakeFiles/zlib.dir/crc32_simd.c.o: CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/zlib.dir/crc32_simd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/crc32_simd.c.o -MF CMakeFiles/zlib.dir/crc32_simd.c.o.d -o CMakeFiles/zlib.dir/crc32_simd.c.o -c /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/crc32_simd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/zlib.dir/crc32_simd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zlib.dir/crc32_simd.c.o -MF CMakeFiles/zlib.dir/crc32_simd.c.o.d -o CMakeFiles/zlib.dir/crc32_simd.c.o -c /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/crc32_simd.c
 
 CMakeFiles/zlib.dir/crc32_simd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/crc32_simd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/crc32_simd.c > CMakeFiles/zlib.dir/crc32_simd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/crc32_simd.c > CMakeFiles/zlib.dir/crc32_simd.c.i
 
 CMakeFiles/zlib.dir/crc32_simd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/crc32_simd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/crc32_simd.c -o CMakeFiles/zlib.dir/crc32_simd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/crc32_simd.c -o CMakeFiles/zlib.dir/crc32_simd.c.s
 
 # Object files for target zlib
 zlib_OBJECTS = \
@@ -365,7 +365,7 @@ libz.a: CMakeFiles/zlib.dir/adler32_simd.c.o
 libz.a: CMakeFiles/zlib.dir/crc32_simd.c.o
 libz.a: CMakeFiles/zlib.dir/build.make
 libz.a: CMakeFiles/zlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C static library libz.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C static library libz.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/zlib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zlib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -378,6 +378,6 @@ CMakeFiles/zlib.dir/clean:
 .PHONY : CMakeFiles/zlib.dir/clean
 
 CMakeFiles/zlib.dir/depend:
-	cd /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/CMakeFiles/zlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/CMakeFiles/zlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/zlib.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib
+# Install script for directory: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/micsipc/Downloads/dcm2niix/build")
+  set(CMAKE_INSTALL_PREFIX "/home/micsipc/github/mercure-motionCorr_dicom/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2/cmake_install.cmake")
+  include("/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2/cmake_install.cmake")
 
 endif()
 

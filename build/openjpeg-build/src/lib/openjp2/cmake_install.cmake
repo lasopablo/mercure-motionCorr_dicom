@@ -1,8 +1,8 @@
-# Install script for directory: /home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2
+# Install script for directory: /home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/micsipc/Downloads/dcm2niix/build")
+  set(CMAKE_INSTALL_PREFIX "/home/micsipc/github/mercure-motionCorr_dicom/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xHeadersx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/openjpeg-2.1" TYPE FILE FILES "/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/src/lib/openjp2/opj_config.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/openjpeg-2.1" TYPE FILE FILES "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/src/lib/openjp2/opj_config.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xLibrariesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/micsipc/Downloads/dcm2niix/build/openjpeg-build/bin/libopenjp2.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg-build/bin/libopenjp2.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xHeadersx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/openjpeg-2.1" TYPE FILE FILES
-    "/home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/openjpeg.h"
-    "/home/micsipc/Downloads/dcm2niix/build/openjpeg/src/lib/openjp2/opj_stdint.h"
+    "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/openjpeg.h"
+    "/home/micsipc/github/mercure-motionCorr_dicom/build/openjpeg/src/lib/openjp2/opj_stdint.h"
     )
 endif()
 

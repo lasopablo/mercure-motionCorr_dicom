@@ -1,8 +1,8 @@
 CMakeFiles/dcm2niix.dir/jpg_0XC3.cpp.o: \
- /home/micsipc/Downloads/dcm2niix/console/jpg_0XC3.cpp \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/jpg_0XC3.cpp \
  /usr/include/stdc-predef.h \
- /home/micsipc/Downloads/dcm2niix/console/jpg_0XC3.h \
- /home/micsipc/Downloads/dcm2niix/console/print.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/jpg_0XC3.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/print.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

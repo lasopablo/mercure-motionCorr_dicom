@@ -1,8 +1,8 @@
-# Install script for directory: /home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib
+# Install script for directory: /home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/micsipc/Downloads/dcm2niix/build")
+  set(CMAKE_INSTALL_PREFIX "/home/micsipc/github/mercure-motionCorr_dicom/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,22 +43,22 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/libz.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/libz.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/zconf.h"
-    "/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zlib.h"
+    "/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/zconf.h"
+    "/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zlib.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man3" TYPE FILE FILES "/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib/zlib.3")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man3" TYPE FILE FILES "/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib/zlib.3")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/zlib.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/zlib.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -69,5 +69,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/micsipc/Downloads/dcm2niix/build/cloudflare-zlib-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/micsipc/github/mercure-motionCorr_dicom/build/cloudflare-zlib-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

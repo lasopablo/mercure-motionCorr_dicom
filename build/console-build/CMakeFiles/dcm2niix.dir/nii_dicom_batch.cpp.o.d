@@ -1,5 +1,5 @@
 CMakeFiles/dcm2niix.dir/nii_dicom_batch.cpp.o: \
- /home/micsipc/Downloads/dcm2niix/console/nii_dicom_batch.cpp \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_dicom_batch.cpp \
  /usr/include/stdc-predef.h /usr/include/unistd.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -20,8 +20,8 @@ CMakeFiles/dcm2niix.dir/nii_dicom_batch.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/micsipc/Downloads/dcm2niix/build/include/zlib.h \
- /home/micsipc/Downloads/dcm2niix/build/include/zconf.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/include/zlib.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/build/include/zconf.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -59,9 +59,9 @@ CMakeFiles/dcm2niix.dir/nii_dicom_batch.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /home/micsipc/Downloads/dcm2niix/console/tinydir.h /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/tinydir.h \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
@@ -99,8 +99,8 @@ CMakeFiles/dcm2niix.dir/nii_dicom_batch.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /home/micsipc/Downloads/dcm2niix/console/print.h /usr/include/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/print.h \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
@@ -110,16 +110,16 @@ CMakeFiles/dcm2niix.dir/nii_dicom_batch.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/micsipc/Downloads/dcm2niix/console/nifti1_io_core.h \
- /home/micsipc/Downloads/dcm2niix/console/nifti1.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1_io_core.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/micsipc/Downloads/dcm2niix/console/nii_dicom_batch.h \
- /home/micsipc/Downloads/dcm2niix/console/nii_dicom.h \
- /home/micsipc/Downloads/dcm2niix/console/nii_foreign.h \
- /home/micsipc/Downloads/dcm2niix/console/nii_ortho.h \
- /home/micsipc/Downloads/dcm2niix/console/base64.h \
- /home/micsipc/Downloads/dcm2niix/console/cJSON.h /usr/include/ctype.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_dicom_batch.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_dicom.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_foreign.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_ortho.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/base64.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/cJSON.h \
+ /usr/include/ctype.h /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath \
  /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \

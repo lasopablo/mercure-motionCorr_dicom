@@ -1,8 +1,8 @@
-/home/micsipc/Downloads/dcm2niix/build/lib/openjpeg-2.1/OpenJPEGTargets.cmake
-/home/micsipc/Downloads/dcm2niix/build/lib/openjpeg-2.1/OpenJPEGTargets-release.cmake
-/home/micsipc/Downloads/dcm2niix/build/lib/openjpeg-2.1/OpenJPEGConfig.cmake
-/home/micsipc/Downloads/dcm2niix/build/lib/pkgconfig/libopenjp2.pc
-/home/micsipc/Downloads/dcm2niix/build/include/openjpeg-2.1/opj_config.h
-/home/micsipc/Downloads/dcm2niix/build/lib/libopenjp2.a
-/home/micsipc/Downloads/dcm2niix/build/include/openjpeg-2.1/openjpeg.h
-/home/micsipc/Downloads/dcm2niix/build/include/openjpeg-2.1/opj_stdint.h
+/home/micsipc/github/mercure-motionCorr_dicom/build/lib/openjpeg-2.1/OpenJPEGTargets.cmake
+/home/micsipc/github/mercure-motionCorr_dicom/build/lib/openjpeg-2.1/OpenJPEGTargets-release.cmake
+/home/micsipc/github/mercure-motionCorr_dicom/build/lib/openjpeg-2.1/OpenJPEGConfig.cmake
+/home/micsipc/github/mercure-motionCorr_dicom/build/lib/pkgconfig/libopenjp2.pc
+/home/micsipc/github/mercure-motionCorr_dicom/build/include/openjpeg-2.1/opj_config.h
+/home/micsipc/github/mercure-motionCorr_dicom/build/lib/libopenjp2.a
+/home/micsipc/github/mercure-motionCorr_dicom/build/include/openjpeg-2.1/openjpeg.h
+/home/micsipc/github/mercure-motionCorr_dicom/build/include/openjpeg-2.1/opj_stdint.h

@@ -1,8 +1,8 @@
 CMakeFiles/dcm2niix.dir/nii_foreign.cpp.o: \
- /home/micsipc/Downloads/dcm2niix/console/nii_foreign.cpp \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_foreign.cpp \
  /usr/include/stdc-predef.h \
- /home/micsipc/Downloads/dcm2niix/console/nii_foreign.h \
- /home/micsipc/Downloads/dcm2niix/console/nii_dicom_batch.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_foreign.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_dicom_batch.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -18,8 +18,8 @@ CMakeFiles/dcm2niix.dir/nii_foreign.cpp.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/micsipc/Downloads/dcm2niix/console/nifti1.h \
- /home/micsipc/Downloads/dcm2niix/console/nii_dicom.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nii_dicom.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -27,8 +27,8 @@ CMakeFiles/dcm2niix.dir/nii_foreign.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/micsipc/Downloads/dcm2niix/console/nifti1_io_core.h \
- /home/micsipc/Downloads/dcm2niix/console/print.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/nifti1_io_core.h \
+ /home/micsipc/github/mercure-motionCorr_dicom/console/print.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
