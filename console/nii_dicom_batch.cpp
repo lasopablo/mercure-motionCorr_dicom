@@ -7498,6 +7498,7 @@ void loadOverlay(char *imgname, unsigned char *img, int offset, int x, int y, in
 } //loadOverlay()
 
 int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata dcmList[], struct TSearchList *nameList, struct TDCMopts opts, struct TDTI4D *dti4D, int segVol) {
+// saves nifti file and json file and bval file and bvec file
 #if 0
 #ifdef USING_DCM2NIIXFSWRAPPER
 	double seriesNum = (double) dcmList[dcmSort[0].indx].seriesUidCrc;
@@ -8035,9 +8036,9 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
         if (!isSameDouble(opts.seriesNumber[0], seriesNum))
             return EXIT_SUCCESS;
 #endif
-
-	if (opts.numSeries >= 0) //issue453
-		nii_SaveBIDSX(pathoutname, dcmList[dcmSort[0].indx], opts, &hdr0, nameList->str[dcmSort[0].indx], dti4D);
+// here: saves json file
+/* 	if (opts.numSeries >= 0) //issue453
+		nii_SaveBIDSX(pathoutname, dcmList[dcmSort[0].indx], opts, &hdr0, nameList->str[dcmSort[0].indx], dti4D); */
 	if (opts.isOnlyBIDS) {
 		//note we waste time loading every image, however this ensures hdr0 matches actual output
 #ifndef USING_DCM2NIIXFSWRAPPER
@@ -8106,7 +8107,8 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
 	}
 	nii_saveText(pathoutname, dcmList[dcmSort[0].indx], opts, &hdr0, nameList->str[indx]);
 	int numADC = 0;
-	int *volOrderIndex = nii_saveDTI(pathoutname, nConvert, dcmSort, dcmList, opts, sliceDir, dti4D, &numADC, hdr0.dim[4]);
+	// here: saves bvec and bval files (8233 lines must be commented out too !!)
+	//int *volOrderIndex = nii_saveDTI(pathoutname, nConvert, dcmSort, dcmList, opts, sliceDir, dti4D, &numADC, hdr0.dim[4]);
 	PhilipsPrecise(&dcmList[dcmSort[0].indx], opts.isPhilipsFloatNotDisplayScaling, &hdr0, opts.isVerbose);
 	if ((dcmList[dcmSort[0].indx].bitsStored == 12) && (dcmList[dcmSort[0].indx].bitsAllocated == 16))
 		nii_mask12bit(imgM, &hdr0, dcmList[dcmSort[0].indx].isSigned);
@@ -8121,12 +8123,12 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
 	if ((dcmList[dcmSort[0].indx].isXA10A) && (nConvert > 1) && (nConvert == (hdr0.dim[3] * hdr0.dim[4])) )
 		printWarning("Siemens XA exported as classic not enhanced DICOM (issue 236)\n");
 #ifndef USING_DCM2NIIXFSWRAPPER
-	printMessage("Convert %d DICOM as %s (%dx%dx%dx%d)\n", nConvert, pathoutname, hdr0.dim[1], hdr0.dim[2], hdr0.dim[3], hdr0.dim[4]);
-	printMessage("(IGNORE) printing data from hdr0\n");
+	printMessage("Found %d DICOM as %s (%dx%dx%dx%d)\n", nConvert, pathoutname, hdr0.dim[1], hdr0.dim[2], hdr0.dim[3], hdr0.dim[4]);
+/* 	printMessage("(IGNORE) printing data from hdr0\n");
 	//printMessage("qoffset_z: %f\n", hdr0.qoffset_z);
 	printMessage("srow_x: %f, %f, %f, %f\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
 	printMessage("srow_y: %f, %f, %f, %f\n", hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3]);
-	printMessage("srow_z: %f, %f, %f, %f\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]);
+	printMessage("srow_z: %f, %f, %f, %f\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]); */
 
 #else
 	printMessage( "Convert %d DICOM (%dx%dx%dx%d)\n",  nConvert, hdr0.dim[1],hdr0.dim[2],hdr0.dim[3],hdr0.dim[4]);
@@ -8176,7 +8178,9 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
 			hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3],
 			hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3],
 			hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]);
-	printWarning("LOAD_MAT44(sForm)");
+	printWarning("LOAD_MAT44(sForm)\n");
+	double origin[3] = {hdr0.qoffset_x, hdr0.qoffset_y, hdr0.qoffset_z};
+	printWarning("Origin: [%g, %g, %g]\n", origin[0], origin[1], origin[2]);
 	printWarning("hdr0.srow_x: [%g, %g, %g, %g]\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
 	printWarning("hdr0.srow_y: [%g, %g, %g, %g]\n", hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3]);
 	printWarning("hdr0.srow_z: [%g, %g, %g, %g]\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]);
@@ -8225,11 +8229,12 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
 	//printMessage(" x--> %d ----\n", nConvert);
 	if (!opts.isRGBplanar) //save RGB as packed RGBRGBRGB... instead of planar RRR..RGGG..GBBB..B
 		imgM = nii_planar2rgb(imgM, &hdr0, true); //NIfTI is packed while Analyze was planar
-	if ((hdr0.dim[4] > 1) && (saveAs3D))
-		returnCode = nii_saveNII3D(pathoutname, hdr0, imgM, opts, dcmList[dcmSort[0].indx]);
+// here: saves nifti file
+/* 	if ((hdr0.dim[4] > 1) && (saveAs3D))
+		returnCode = nii_saveNII3D(pathoutname, hdr0, imgM, opts, dcmList[dcmSort[0].indx]); */
 	else {
-		if (volOrderIndex) //reorder volumes
-			imgM = reorderVolumes(&hdr0, imgM, volOrderIndex);
+/* 		if (volOrderIndex) //reorder volumes
+			imgM = reorderVolumes(&hdr0, imgM, volOrderIndex); */
 		if ((opts.isIgnoreDerivedAnd2D) && (numADC > 0))
 			printMessage("Ignoring derived diffusion image(s). Better isotropic and ADC maps can be generated later processing.\n");
 		if ((!opts.isIgnoreDerivedAnd2D) && (numADC > 0)) { //ADC maps can disrupt analysis: save a copy with the ADC map, and another without
@@ -8390,6 +8395,7 @@ int saveDcm2Nii(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata dcmLi
 #endif
 	//this wrapper does nothing if all the images share the same echo time and scale
 	// however, it segments images when these properties vary
+	// here: create nifti file. here: create json file
 	uint64_t indx = dcmSort[0].indx;
 	if ((!dcmList[indx].isScaleOrTEVaries) || (dcmList[indx].xyzDim[4] < 2))
 		return saveDcm2NiiCore(nConvert, dcmSort, dcmList, nameList, opts, dti4D, -1);
