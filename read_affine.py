@@ -4,7 +4,7 @@ import numpy as np
 
 # Define your dcm2niix command
 # Make sure to adjust the command according to your dcm2niix installation and the arguments you need
-command = ["/home/micsipc/Downloads/dcm2niix/build/bin/dcm2niix", "-f", "%p_%s", "-o", "/home/micsipc/Documents", "/home/micsipc/Documents/images/4D/brain_mapping_meso"]
+command = ["/home/micsipc/github/mercure-motionCorr_dicom/build/bin/dcm2niix", "-f", "%p_%s", "-o", "/home/micsipc/Documents", "/home/micsipc/Documents/images/4D/brain_mapping_meso"]
 
 # Run dcm2niix using subprocess
 process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
