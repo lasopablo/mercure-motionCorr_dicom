@@ -2,6 +2,9 @@ import subprocess
 import re
 import numpy as np
 
+# Set numpy print options
+np.set_printoptions(precision=3, suppress=True)
+
 # Define your dcm2niix command
 command = ["/home/micsipc/github/mercure-motionCorr_dicom/build/bin/dcm2niix", "-f", "%p_%s", "-o", "/home/micsipc/Documents", "/home/micsipc/Documents/images/4D/brain_mapping_meso"]
 # time /home/micsipc/github/mercure-motionCorr_dicom/build/bin/dcm2niix -f %p_%s -o /home/micsipc/Documents /home/micsipc/Documents/images/4D/brain_mapping_meso
@@ -11,7 +14,7 @@ process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PI
 
 # Capture the standard output and error
 stdout, stderr = process.communicate()
-print("output: ", stdout)
+#print("output: ", stdout)
 
 # Regex pattern to capture the affine matrix and Orientation lines
 affine_matrix_pattern = r"Warning: hdr0.srow_x: \[([-\d\.e, ]+)\]\n" + \
@@ -31,12 +34,18 @@ if affine_match and orientation_match:
     # Extract origin from orientation match
     origin = [orientation_match.group(7), orientation_match.group(8), orientation_match.group(9)]
     
+    # Convert strings to float and create numpy arrays
+    srow_x = np.array(srow_x, dtype='float')
+    srow_y = np.array(srow_y, dtype='float')
+    srow_z = np.array(srow_z, dtype='float')
+    origin = np.array(origin, dtype='float')
+    
     # Create a numpy matrix with the extracted affine values
-    affine_matrix = np.matrix([srow_x, srow_y, srow_z, [0, 0, 0, 1]], dtype='float')
+    affine_matrix = np.vstack([srow_x, srow_y, srow_z, [0, 0, 0, 1]])
     print("Affine Matrix:\n", affine_matrix)
     
     # Normalize affine matrix with orientation values
-    orientation = np.matrix([
+    orientation = np.array([
         [float(orientation_match.group(1)), float(orientation_match.group(2)), 0, float(origin[0])],
         [float(orientation_match.group(4)), float(orientation_match.group(5)), 0, float(origin[1])],
         [0, 0, 1, float(origin[2])],

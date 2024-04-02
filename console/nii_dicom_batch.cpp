@@ -8173,17 +8173,33 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
 		imgM = nii_flipImgY(imgM, &hdr0);
 	}
 	//begin: gantry tilt we need to save the shear in the transform
+	// here: affine matrix is printed
 	mat44 sForm;
 	LOAD_MAT44(sForm,
 			hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3],
 			hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3],
 			hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]);
-	printWarning("LOAD_MAT44(sForm)\n");
+	//printWarning("LOAD_MAT44(sForm)\n");
 	double origin[3] = {hdr0.qoffset_x, hdr0.qoffset_y, hdr0.qoffset_z};
-	printWarning("Origin: [%g, %g, %g]\n", origin[0], origin[1], origin[2]);
+	//printWarning("Origin: [%g, %g, %g]\n", origin[0], origin[1], origin[2]);
 	printWarning("hdr0.srow_x: [%g, %g, %g, %g]\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
 	printWarning("hdr0.srow_y: [%g, %g, %g, %g]\n", hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3]);
 	printWarning("hdr0.srow_z: [%g, %g, %g, %g]\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]);
+
+	printMessage("Orientation: [%g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g]\n", 
+		dcmList[1].orient[1], 
+		dcmList[1].orient[2], 
+		dcmList[1].orient[3],
+		dcmList[1].orient[4], 
+		dcmList[1].orient[5], 
+		dcmList[1].orient[6],
+		dcmList[1].orient[7],
+		dcmList[1].orient[8],
+		dcmList[1].orient[9],
+		dcmList[1].orient[10],
+		dcmList[1].orient[11],
+		dcmList[1].orient[12],
+		dcmList[1].orient[13]);
 	
 	if (!isSameFloatGE(dcmList[indx0].gantryTilt, 0.0)) {
 		float thetaRad = dcmList[indx0].gantryTilt * M_PI / 180.0;
@@ -9323,7 +9339,7 @@ int nii_loadDirCore(char *indir, struct TDCMopts *opts) {
 		opts->filename[strlen(opts->filename) - 4] = 0; // "%s_%r.dcm" -> "%s_%r"
 			//consider OpenMP
 			// g++-9 -I. main_console.cpp nii_foreign.cpp nii_dicom.cpp jpg_0XC3.cpp ujpeg.cpp nifti1_io_core.cpp nii_ortho.cpp nii_dicom_batch.cpp -o dcm2niix -DmyDisableOpenJPEG -fopenmp
-	for (int i = 0; i < (int)nDcm; i++) {
+/* 	for (int i = 0; i < (int)nDcm; i++) {
 		if ((isExt(nameList.str[i], ".par")) && (isDICOMfile(nameList.str[i]) < 1)) {
 			//strcpy(opts->indir, nameList.str[i]); //set to original file name, not path
 			dcmList[i].converted2NII = 1;
@@ -9334,7 +9350,7 @@ int nii_loadDirCore(char *indir, struct TDCMopts *opts) {
 				convertError = true;
 			continue;
 		}
-		// here: reads DICOM header and DICOM metadata
+		// here: reads DICOM header and DICOM metadata (commented out to avoid loop and just take info from one dicom file) see below for the 1 dicom ("loopping over just 1")
 		dcmList[i] = readDICOMx(nameList.str[i], &prefs, dti4D); //ignore compile warning - memory only freed on first of 2 passes
 
 
@@ -9361,9 +9377,46 @@ int nii_loadDirCore(char *indir, struct TDCMopts *opts) {
 		if (opts->isProgress)
 			progressPct = reportProgress(progressPct, kStage1Frac + (kStage2Frac * (float)i / (float)nDcm)); //proportion correct, 0..100
 	}
-		// Check if ImagePositionPatient exists and print it
+	 */	
+	int i = 1; // Use only the first DICOM file for processing.
+	if ((isExt(nameList.str[i], ".par")) && (isDICOMfile(nameList.str[i]) < 1)) {
+		//strcpy(opts->indir, nameList.str[i]); //set to original file name, not path
+		dcmList[i].converted2NII = 1;
+		int ret = convert_parRec(nameList.str[i], *opts);
+		if (ret == EXIT_SUCCESS)
+			nConvertTotal++;
+		else
+			convertError = true;
+		// No need to continue since we're only processing one file.
+	} else {
+		// Reads DICOM header and DICOM metadata for the first file
+		dcmList[i] = readDICOMx(nameList.str[i], &prefs, dti4D);
+
+		if (opts->isIgnoreSeriesInstanceUID)
+			dcmList[i].seriesUidCrc = dcmList[i].seriesNum;
+
+		if ((dcmList[i].isValid) && ((dti4D->sliceOrder[0] >= 0) || (dcmList[i].CSA.numDti > 1))) {
+			struct TDCMsort dcmSort[1];
+			fillTDCMsort(dcmSort[0], i, dcmList[i]);
+			dcmList[i].converted2NII = 1;
+			int ret = saveDcm2Nii(1, dcmSort, dcmList, &nameList, *opts, dti4D);
+			if (ret == EXIT_SUCCESS)
+				nConvertTotal++;
+			else
+				convertError = true;
+		}
+
+		if ((dcmList[i].compressionScheme != kCompressNone) && (!compressionWarning) && (opts->compressFlag != kCompressNone)) {
+			compressionWarning = true; //generate once per conversion rather than once per image
+			printMessage("Image Decompression is new: please validate conversions\n");
+		}
+
+		if (opts->isProgress)
+			progressPct = reportProgress(progressPct, kStage1Frac + (kStage2Frac * (float)i / (float)nDcm)); //proportion correct, 0..100
+	}
+// Check if ImagePositionPatient exists and print it
 //printMessage("Image Position Patient: [%g, %g, %g]\n", dcmList[1].patientPosition[1], dcmList[1].patientPosition[2], dcmList[1].patientPosition[3]);
-printMessage("Orientation: [%g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g]\n", 
+/* printMessage("Orientation: [%g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g]\n", 
 		dcmList[1].orient[1], 
 		dcmList[1].orient[2], 
 		dcmList[1].orient[3],
@@ -9376,7 +9429,7 @@ printMessage("Orientation: [%g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g]\
 		dcmList[1].orient[10],
 		dcmList[1].orient[11],
 		dcmList[1].orient[12],
-		dcmList[1].orient[13]);
+		dcmList[1].orient[13]); */
 #ifdef myTimer
 	if (opts->isProgress > 1)
 		printMessage("Stage 2 (Read DICOM headers, Convert 4D) required %f seconds.\n", ((float)(clock() - start)) / CLOCKS_PER_SEC);
