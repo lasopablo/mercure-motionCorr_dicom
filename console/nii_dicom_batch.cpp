@@ -9336,10 +9336,10 @@ int nii_loadDirCore(char *indir, struct TDCMopts *opts) {
 		}
 		// here: reads DICOM header and DICOM metadata
 		dcmList[i] = readDICOMx(nameList.str[i], &prefs, dti4D); //ignore compile warning - memory only freed on first of 2 passes
-		// After dcmList[i] has been assigned
-		printMessage("Patient Name: %s\n", dcmList[i].patientName);
 
-		
+
+
+	
 		//dcmList[i] = readDICOMv(nameList.str[i], opts->isVerbose, opts->compressFlag, dti4D); //ignore compile warning - memory only freed on first of 2 passes
 		if (opts->isIgnoreSeriesInstanceUID)
 			dcmList[i].seriesUidCrc = dcmList[i].seriesNum;
@@ -9361,6 +9361,22 @@ int nii_loadDirCore(char *indir, struct TDCMopts *opts) {
 		if (opts->isProgress)
 			progressPct = reportProgress(progressPct, kStage1Frac + (kStage2Frac * (float)i / (float)nDcm)); //proportion correct, 0..100
 	}
+		// Check if ImagePositionPatient exists and print it
+//printMessage("Image Position Patient: [%g, %g, %g]\n", dcmList[1].patientPosition[1], dcmList[1].patientPosition[2], dcmList[1].patientPosition[3]);
+printMessage("Orientation: [%g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g, %g]\n", 
+		dcmList[1].orient[1], 
+		dcmList[1].orient[2], 
+		dcmList[1].orient[3],
+		dcmList[1].orient[4], 
+		dcmList[1].orient[5], 
+		dcmList[1].orient[6],
+		dcmList[1].orient[7],
+		dcmList[1].orient[8],
+		dcmList[1].orient[9],
+		dcmList[1].orient[10],
+		dcmList[1].orient[11],
+		dcmList[1].orient[12],
+		dcmList[1].orient[13]);
 #ifdef myTimer
 	if (opts->isProgress > 1)
 		printMessage("Stage 2 (Read DICOM headers, Convert 4D) required %f seconds.\n", ((float)(clock() - start)) / CLOCKS_PER_SEC);
