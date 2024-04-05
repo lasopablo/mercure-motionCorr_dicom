@@ -7585,6 +7585,7 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
 #endif 
 
 	struct nifti_1_header hdr0 =  {0};
+	// here: affine matrix modified: translation values modified according to mosaic size
 	unsigned char *img = nii_loadImgXL(nameList->str[indx], &hdr0, dcmList[indx], iVaries, opts.compressFlag, opts.isVerbose, dti4D);
 	if (strlen(opts.imageComments) > 0) {
 		for (int i = 0; i < 24; i++)
@@ -7598,6 +7599,9 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
 	size_t imgsz = nii_ImgBytes(hdr0);
 	unsigned char *imgM = (unsigned char *)malloc(imgsz * (uint64_t)nConvert);
 	memcpy(&imgM[0], &img[0], imgsz);
+/* 	printMessage("hdr0.srow_x: [%g, %g, %g, %g]\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
+ 	printMessage("hdr0.srow_y: [%g, %g, %g, %g]\n", hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3]);
+	printMessage("hdr0.srow_z: [%g, %g, %g, %g]\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]); */
 	free(img);
 
 #ifdef USING_DCM2NIIXFSWRAPPER
@@ -8165,8 +8169,15 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
 			isSetOrtho = true;
 		}
 	} else if (opts.isFlipY) { //(FLIP_Y) //(dcmList[indx0].CSA.mosaicSlices < 2) &&
+		printWarning("hdr0.srow_x: [%g, %g, %g, %g]\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
+		printWarning("hdr0.srow_y: [%g, %g, %g, %g]\n", hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3]);
+		printWarning("hdr0.srow_z: [%g, %g, %g, %g]\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]);
+		printWarning("imgM: %g\n",imgM[1]);
 		imgM = nii_flipY(imgM, &hdr0);
 		isFlipY = true;
+		printWarning("hdr0.srow_x: [%g, %g, %g, %g]\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
+		printWarning("hdr0.srow_y: [%g, %g, %g, %g]\n", hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3]);
+		printWarning("hdr0.srow_z: [%g, %g, %g, %g]\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]);
 	} else
 		printMessage("DICOM row order preserved: may appear upside down in tools that ignore spatial transforms\n");
 	if ((dcmList[dcmSort[0].indx].epiVersionGE == kGE_EPI_PEPOLAR_REV) || (dcmList[dcmSort[0].indx].epiVersionGE == kGE_EPI_PEPOLAR_FWD_REV_FLIP) || (dcmList[dcmSort[0].indx].epiVersionGE == kGE_EPI_PEPOLAR_REV_FWD_FLIP)) {
@@ -8331,18 +8342,6 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
 	if (dcmList[indx0].gantryTilt != 0.0) {
 		setQSForm(&hdr0, sForm, true);
 		setQSForm(&hdr0, sForm, true);
-
-		// Printing sForm matrix elements
-		printWarning("sForm matrix after setQSForm:\n");
-		printWarning("[[%g, %g, %g, %g],\n", sForm.m[0][0], sForm.m[0][1], sForm.m[0][2], sForm.m[0][3]);
-		printWarning(" [%g, %g, %g, %g],\n", sForm.m[1][0], sForm.m[1][1], sForm.m[1][2], sForm.m[1][3]);
-		printWarning(" [%g, %g, %g, %g],\n", sForm.m[2][0], sForm.m[2][1], sForm.m[2][2], sForm.m[2][3]);
-		printWarning(" [%g, %g, %g, %g]]\n", sForm.m[3][0], sForm.m[3][1], sForm.m[3][2], sForm.m[3][3]);
-
-		// Printing relevant hdr0 values (assuming srow_x, srow_y, and srow_z are of primary interest)
-		printWarning("hdr0.srow_x after setQSForm: [%g, %g, %g, %g]\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
-		printWarning("hdr0.srow_y after setQSForm: [%g, %g, %g, %g]\n", hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3]);
-		printWarning("hdr0.srow_z after setQSForm: [%g, %g, %g, %g]\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]);
 
 		//if (dcmList[indx0].isResampled) { //we no detect based on image orientation https://github.com/rordenlab/dcm2niix/issues/253
 		// printMessage("Tilt correction skipped: 0008,2111 reports RESAMPLED\n");

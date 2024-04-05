@@ -590,6 +590,13 @@ mat44 set_nii_header(struct TDICOMdata d) {
 mat44 set_nii_header_x(struct TDICOMdata d, struct TDICOMdata d2, struct nifti_1_header *h, int *sliceDir, int isVerbose) {
 	*sliceDir = 0;
 	mat44 Q44 = nifti_dicom2mat(d.orient, d.patientPosition, d.xyzMM);
+/* 	printMessage("[%g, %g, %g, %g]\n", Q44.m[0][0], Q44.m[0][1], Q44.m[1][0], Q44.m[1][1]);	printMessage("---\n");
+ *//* 	printMessage("Q44 values after nifti_dicom2mat:\n");
+	printMessage("[%g, %g, %g, %g]\n", Q44.m[0][0], Q44.m[0][1], Q44.m[0][2], Q44.m[0][3]);
+	printMessage("[%g, %g, %g, %g]\n", Q44.m[1][0], Q44.m[1][1], Q44.m[1][2], Q44.m[1][3]);
+	printMessage("[%g, %g, %g, %g]\n", Q44.m[2][0], Q44.m[2][1], Q44.m[2][2], Q44.m[2][3]); */
+	//here: affine altered: dicom/nifti header translation values modifies
+
 	//Q44 = doQuadruped(Q44);
 	if (d.isSegamiOasis == true) {
 		//Segami reconstructions appear to disregard DICOM spatial parameters: assume center of volume is isocenter and no table tilt
@@ -615,18 +622,24 @@ mat44 set_nii_header_x(struct TDICOMdata d, struct TDICOMdata d2, struct nifti_1
 		double nRowCol = ceil(sqrt((double)d.CSA.mosaicSlices));
 		double lFactorX = (d.xyzDim[1] - (d.xyzDim[1] / nRowCol)) / 2.0;
 		double lFactorY = (d.xyzDim[2] - (d.xyzDim[2] / nRowCol)) / 2.0;
-		Q44.m[0][3] = (float)((Q44.m[0][0] * lFactorX) + (Q44.m[0][1] * lFactorY) + Q44.m[0][3]);
+/* 		printMessage("[%g, %g, %g, %g]\n", Q44.m[0][0], Q44.m[0][1], Q44.m[1][0], Q44.m[1][1]);
+ */		Q44.m[0][3] = (float)((Q44.m[0][0] * lFactorX) + (Q44.m[0][1] * lFactorY) + Q44.m[0][3]);
 		Q44.m[1][3] = (float)((Q44.m[1][0] * lFactorX) + (Q44.m[1][1] * lFactorY) + Q44.m[1][3]);
 		Q44.m[2][3] = (float)((Q44.m[2][0] * lFactorX) + (Q44.m[2][1] * lFactorY) + Q44.m[2][3]);
+/* 		printMessage("Q44 (x) values after mosaic adjustment:\n");
+		printMessage("[%g, %g, %g]\n", Q44.m[0][3], Q44.m[1][3], Q44.m[2][3]); */
 		for (int c = 0; c < 2; c++)
 			for (int r = 0; r < 4; r++)
 				Q44.m[c][r] = -Q44.m[c][r];
+/* 		printMessage("Q44 (x) values after sign adjustment:\n");
+		printMessage("[%g, %g, %g, %g]\n", Q44.m[0][3], Q44.m[1][3], Q44.m[2][3]); */
 		mat33 Q;
 		LOAD_MAT33(Q, d.orient[1], d.orient[4], d.CSA.sliceNormV[1],
 			d.orient[2], d.orient[5], d.CSA.sliceNormV[2],
 			d.orient[3], d.orient[6], d.CSA.sliceNormV[3]);
 		if (nifti_mat33_determ(Q) < 0) { //Siemens sagittal are R>>L, whereas NIfTI is L>>R, we retain Siemens order on disk so ascending is still ascending, but we need to have the spatial transform reflect this.
 			mat44 det;
+			printWarning("Siemens sagittal detected, flipping spatial transform\n");
 			*sliceDir = kSliceOrientMosaicNegativeDeterminant; //we need to handle DTI vectors accordingly
 			LOAD_MAT44(det, 1.0l, 0.0l, 0.0l, 0.0l, 0.0l, 1.0l, 0.0l, 0.0l, 0.0l, 0.0l, -1.0l, 0.0l);
 			//patient_to_tal.m[2][3] = 1-d.CSA.MosaicSlices;
@@ -638,10 +651,12 @@ mat44 set_nii_header_x(struct TDICOMdata d, struct TDICOMdata d2, struct nifti_1
 			for (int r = 0; r < 2; r++) //swap rows 1 & 2
 				Q44.m[r][c] = -Q44.m[r][c];
 	}
+//printMessage("\n---\n");
 #ifdef MY_DEBUG
 	reportMat44((char *)"Q44", Q44);
 #endif
 	return Q44;
+
 }
 
 int headerDcm2NiiSForm(struct TDICOMdata d, struct TDICOMdata d2, struct nifti_1_header *h, int isVerbose) { //fill header s and q form
@@ -2890,7 +2905,9 @@ unsigned char *nii_flipY(unsigned char *bImg, struct nifti_1_header *h) {
 		h->srow_y[0], h->srow_y[1], h->srow_y[2], h->srow_y[3],
 		h->srow_z[0], h->srow_z[1], h->srow_z[2], h->srow_z[3]);
 	vec4 v = setVec4(0, (float)h->dim[2] - 1, 0);
+	printMessage("v: [%g, %g, %g]\n", v.v[0], v.v[1], v.v[2]);
 	v = nifti_vect44mat44_mul(v, Q44); //after flip this voxel will be the origin
+	printMessage("v new: [%g, %g, %g]\n", v.v[0], v.v[1], v.v[2]);
 	mat33 mFlipY;
 	LOAD_MAT33(mFlipY, 1.0f, 0.0f, 0.0f, 0.0f, -1.0f, 0.0f, 0.0f, 0.0f, 1.0f);
 	s = nifti_mat33_mul(s, mFlipY);

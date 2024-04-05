@@ -6,6 +6,7 @@ import numpy as np
 np.set_printoptions(precision=3, suppress=True)
 
 # Define your dcm2niix command
+#command = ["/home/micsipc/github/mercure-motionCorr_dicom/build/bin/dcm2niix", "-f", "%p_%s", "-o", "/home/micsipc/Documents", "/home/micsipc/Documents/images/3D/ax_t1"]
 command = ["/home/micsipc/github/mercure-motionCorr_dicom/build/bin/dcm2niix", "-f", "%p_%s", "-o", "/home/micsipc/Documents", "/home/micsipc/Documents/images/4D/brain_mapping_meso"]
 # time /home/micsipc/github/mercure-motionCorr_dicom/build/bin/dcm2niix -f %p_%s -o /home/micsipc/Documents /home/micsipc/Documents/images/4D/brain_mapping_meso
 
@@ -14,7 +15,7 @@ process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PI
 
 # Capture the standard output and error
 stdout, stderr = process.communicate()
-#print("output: ", stdout)
+print("output: ", stdout)
 
 # Regex pattern to capture the affine matrix and Orientation lines
 affine_matrix_pattern = r"Warning: hdr0.srow_x: \[([-\d\.e, ]+)\]\n" + \
