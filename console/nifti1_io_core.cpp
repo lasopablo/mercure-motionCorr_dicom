@@ -216,10 +216,10 @@ vec3 nifti_vect33mat33_mul(vec3 v, mat33 m ) { //multiply vector * 3x3matrix
 
 vec4 nifti_vect44mat44_mul(vec4 v, mat44 m ) { //multiply vector * 4x4matrix
     vec4 vO;
-
+/* 
     printf("vO initial: [%g, %g, %g, %g]\n", vO.v[0], vO.v[1], vO.v[2], vO.v[3]);
     printf("Input vector v: [%g, %g, %g, %g]\n", v.v[0], v.v[1], v.v[2], v.v[3]);
-    printf("Matrix m:\n");
+    printf("Matrix m:\n"); */
     for (int i = 0; i < 4; i++) {
         printf("[%g, %g, %g, %g]\n", m.m[i][0], m.m[i][1], m.m[i][2], m.m[i][3]);
     }
@@ -230,9 +230,9 @@ vec4 nifti_vect44mat44_mul(vec4 v, mat44 m ) { //multiply vector * 4x4matrix
             vO.v[i] += m.m[i][j]*v.v[j];
     }
 
-    printf("vO final: [%g, %g, %g, %g]\n", vO.v[0], vO.v[1], vO.v[2], vO.v[3]);
+/*     printf("vO final: [%g, %g, %g, %g]\n", vO.v[0], vO.v[1], vO.v[2], vO.v[3]);
     printf("Input vector v (unchanged): [%g, %g, %g, %g]\n", v.v[0], v.v[1], v.v[2], v.v[3]);
-    printf("Matrix m (unchanged):\n");
+    printf("Matrix m (unchanged):\n"); */
     for (int i = 0; i < 4; i++) {
         printf("[%g, %g, %g, %g]\n", m.m[i][0], m.m[i][1], m.m[i][2], m.m[i][3]);
     }

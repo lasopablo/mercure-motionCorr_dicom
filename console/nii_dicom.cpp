@@ -2905,9 +2905,9 @@ unsigned char *nii_flipY(unsigned char *bImg, struct nifti_1_header *h) {
 		h->srow_y[0], h->srow_y[1], h->srow_y[2], h->srow_y[3],
 		h->srow_z[0], h->srow_z[1], h->srow_z[2], h->srow_z[3]);
 	vec4 v = setVec4(0, (float)h->dim[2] - 1, 0);
-	printMessage("v: [%g, %g, %g]\n", v.v[0], v.v[1], v.v[2]);
+	//printMessage("v: [%g, %g, %g]\n", v.v[0], v.v[1], v.v[2]);
 	v = nifti_vect44mat44_mul(v, Q44); //after flip this voxel will be the origin
-	printMessage("v new: [%g, %g, %g]\n", v.v[0], v.v[1], v.v[2]);
+	//printMessage("v new: [%g, %g, %g]\n", v.v[0], v.v[1], v.v[2]);
 	mat33 mFlipY;
 	LOAD_MAT33(mFlipY, 1.0f, 0.0f, 0.0f, 0.0f, -1.0f, 0.0f, 0.0f, 0.0f, 1.0f);
 	s = nifti_mat33_mul(s, mFlipY);

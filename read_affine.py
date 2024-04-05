@@ -15,7 +15,7 @@ process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PI
 
 # Capture the standard output and error
 stdout, stderr = process.communicate()
-print("output: ", stdout)
+#print("output: ", stdout)
 
 # Regex pattern to capture the affine matrix and Orientation lines
 affine_matrix_pattern = r"Warning: hdr0.srow_x: \[([-\d\.e, ]+)\]\n" + \

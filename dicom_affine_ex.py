@@ -1,3 +1,9 @@
+# run with: clear && python '/home/micsipc/github/mercure-motionCorr_dicom/dicom_affine_ex.py'
+
+
+# author: Pablo Laso and Ben 
+# takes 3.1 secs on python (took 0.2 secs on C++)
+
 # -*- coding: utf-8 -*-
 """dicom_affine_ex.ipynb
 
@@ -12,14 +18,14 @@ import sys
 import numpy as np
 from glob import glob
 
-!pip install pydicom
-!pip install pylibjpeg pylibjpeg-libjpeg
+#!pip install pydicom
+#!pip install pylibjpeg pylibjpeg-libjpeg
 import pydicom
-!pip install antspyx
+#!pip install antspyx
 import ants
-from google.colab import drive
+""" from google.colab import drive
 drive.mount('/content/drive')
-sys.path.insert(0,'/content/drive/MyDrive/dicom_motion_preprocessing')
+sys.path.insert(0,'/content/drive/MyDrive/dicom_motion_preprocessing') """
 
 class DICOMImageProperties:
     """
@@ -102,12 +108,12 @@ class DICOMImageProperties:
 
         # Pretty print the affine matrix
         np.set_printoptions(precision=3, suppress=True)
-        print("Scaling Matrix:")
-        print(scaling_matrix)
-        print("\n * Orientation (Rotation) Matrix:")
-        print(orientation_matrix)
-        print("\n = Affine Matrix (translation incl., not normarlized:")
-        print(self.affine_matrix)
+        #print("Scaling Matrix:")
+        #print(scaling_matrix)
+        #print("\n * Orientation (Rotation) Matrix:")
+        #print(orientation_matrix)
+        #print("\n = Affine Matrix (translation incl., not normarlized:")
+        #print(self.affine_matrix)
 
         # Setting origin, spacing, and dimensions
         self.origin = origin
@@ -119,8 +125,8 @@ class DICOMImageProperties:
         self.dimensions = [int(i) for i in self.dimensions]
         # normalize affine_matrix according to itk convention
         self.affine_matrix[:3, :3] = self.affine_matrix[:3, :3] / self.spacing[:3]
-        print("Affine Matrix (itk normalization)")
-        print(self.affine_matrix)
+        #print("Affine Matrix (itk normalization)")
+        #print(self.affine_matrix)
 
         self._all_props = first_dicom
 
@@ -165,7 +171,7 @@ class DICOMImageProperties:
 
     def modify_affine_for_new_orientation(self, affine, new_orientation):
         current_orientation = self.get_orientation(affine)
-        print(f"Original orientation: {current_orientation}")
+        #print(f"Original orientation: {current_orientation}")
 
         if (len(new_orientation) == 3) & (new_orientation.isalpha()):
           new_x = new_orientation[0].upper()
@@ -212,12 +218,12 @@ class DICOMImageProperties:
             new_affine[2, 3] += self.spacing[2] * (self.dimensions[2] - 1)
 
         current_orientation = self.get_orientation(new_affine)
-        print(f"New orientation: {current_orientation}")
+        #print(f"New orientation: {current_orientation}")
         return new_affine, (flip_x, flip_y, flip_z)
 
 """load a 3D dataset and print out the affine."""
 
-dcmpath = '/content/drive/MyDrive/dicom_motion_preprocessing/test_series/brain_mapping_meso'
+dcmpath = '/home/micsipc/Documents/images/4D/brain_mapping_meso'
 #dcmpath = '/content/drive/MyDrive/dicom_motion_preprocessing/test_series/brain_mapping_fmri_sms_verb_generation'
 #dcmpath = '/content/drive/MyDrive/images/DICOM_series/test_series'
 pattern = os.path.join(dcmpath, '*dcm')
@@ -242,45 +248,45 @@ dcm.load_and_process_dicom_series()
 
 affine_orig = dcm.get_affine_matrix()
 
-print("Basic affine matrix: \n", affine_orig)
-print("Original Orientation: ", dcm.get_orientation(affine_orig))
+""" print("Basic affine matrix: \n", affine_orig)
+print("Original Orientation: ", dcm.get_orientation(affine_orig)) """
 
 affine_rps, flipping = dcm.modify_affine_for_new_orientation(affine_orig, 'RPS')
-print(affine_rps)
-print("flipped along: ",flipping)
+""" print(affine_rps)
+print("flipped along: ",flipping) """
 
 affine_ras, flipping = dcm.modify_affine_for_new_orientation(affine_orig, 'RAS')
-print(affine_ras)
-print("flipped along: ",flipping)
+""" print(affine_ras)
+print("flipped along: ",flipping) """
 
 """Validation: load the nifti version converted by dcm2niix"""
 
 #niipath = '/content/drive/MyDrive/dicom_motion_preprocessing/test_series/ax_t1_dcm2niix_34.nii'
-niipath = '/content/drive/MyDrive/dicom_motion_preprocessing/test_series/brain_mapping_meso_dcm2niix_35.nii'
+niipath = '/home/micsipc/Documents/images/4D/brain_mapping_meso_dcm2niix_35.nii'
 #niipath = '/content/drive/MyDrive/dicom_motion_preprocessing/test_series/brain_mapping_fmri_sms_verb_generation_dcm2niix_10.nii'
 #niipath = '/content/drive/MyDrive/images/DICOM_series/nii/DIFF_meso_2_TE96_9.nii'
 img = ants.image_read(niipath)
-print("ANTS Affine Matrix:\n", img.direction)
+""" print("ANTS Affine Matrix:\n", img.direction)
 print("ANTS Origin:", img.origin)
 print("ANTS Orientation:", dcm.get_orientation(img.direction))
-print()
+print() """
 import nibabel as nib
 nifti_img = nib.load(niipath)
 nifti_data = nifti_img.get_fdata()
 shape = nifti_data.shape
-print("Shape of the NIfTI file:", shape)
-import matplotlib.pyplot as plt
+#print("Shape of the NIfTI file:", shape)
+""" import matplotlib.pyplot as plt
 plt.imshow(nifti_data[:, :, 20, 1], cmap='gray')  # Adjust the slice index as needed
 plt.colorbar()
 plt.title('NIfTI Image')
-plt.show()
+plt.show() """
 header = nifti_img.header
-print(header)
+""" print(header) """
 # Leer las transformaciones qform y sform
 qform_matrix = nifti_img.get_qform()
 sform_matrix = nifti_img.get_sform()
-print(qform_matrix)
-print(sform_matrix)
+""" print(qform_matrix)
+print(sform_matrix) """
 
 image=img
 # Get the affine matrix components
@@ -290,13 +296,13 @@ origin = image.origin
 direction_matrix = image.direction
 full_affine_matrix = direction_matrix.copy()
 full_affine_matrix[:3, 3] = origin[:3]
-print(f'ANTs complete Affine Matrix: translation added and "{dcm.get_orientation(img.direction)}" orientation:')
-print(full_affine_matrix)
+""" print(f'ANTs complete Affine Matrix: translation added and "{dcm.get_orientation(img.direction)}" orientation:')
+print(full_affine_matrix) """
 
 affine_rps, flipping = dcm.modify_affine_for_new_orientation(affine_orig, 'RPS')
 comparison_matrix = np.isclose(full_affine_matrix, affine_rps, atol=1e-3)
-print("Element-wise comparison matrix (True means a match up to three decimals):")
-print(comparison_matrix)
+""" print("Element-wise comparison matrix (True means a match up to three decimals):")
+print(comparison_matrix) """
 full_affine_matrix, affine_orig
 
 import os
@@ -330,7 +336,7 @@ def init_mosaic_dicom(files, datasize, matrixsize, NumberOfTiles, nmos, in_folde
 
     return imagevol
 
-from drive.MyDrive.code import mputils
+import mputils
 
 def get_slice_index(info):
     try:
@@ -340,7 +346,7 @@ def get_slice_index(info):
         nmos = csadict['tags']['NumberOfImagesInMosaic']['items'][0]
         return nmos
     except:
-        print('excpt')
+        #print('excpt')
         datasize = [info.Rows, info.Columns]
         matrixsize = list(info.AcquisitionMatrix[i] for i in [0, 3])
 
@@ -354,7 +360,7 @@ def get_slice_index(info):
 (datasize, matrixsize, NumberOfTiles) = dcm.get_image_size_attributes(dcm._all_props)
 nmos = get_slice_index(dcm._all_props)
 image = init_mosaic_dicom(dicom_files, datasize, matrixsize, NumberOfTiles, nmos, dcmpath)
-print(datasize, matrixsize, NumberOfTiles, nmos, dcmpath)
+#print(datasize, matrixsize, NumberOfTiles, nmos, dcmpath)
 
 import numpy as np
 
@@ -461,9 +467,16 @@ header_updated[:, -1] = vO.flatten()  # Ensures vO is 1D and assigns it
 print("New matrix ("+dcm.get_orientation(header_updated)+"):\n", header_updated)
 print("ANTs matrix ("+dcm.get_orientation(ants_matrix)+"):\n", ants_matrix)
 
+
+
+
+
+
 """---
 
 # Here is where we keep track of image flipping!
+"""
+
 """
 
 def dicom_series3d_to_volume(directory):
@@ -540,3 +553,4 @@ dicom_in_folder = "/content/drive/MyDrive/images/DICOM_series/test_series/"
 DCM = Dicom(dicom_in_folder)
 im, dcmdict = DCM.initialize()
 
+ """

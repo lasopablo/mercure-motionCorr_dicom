@@ -8169,17 +8169,17 @@ int saveDcm2NiiCore(int nConvert, struct TDCMsort dcmSort[], struct TDICOMdata d
 			isSetOrtho = true;
 		}
 	} else if (opts.isFlipY) { //(FLIP_Y) //(dcmList[indx0].CSA.mosaicSlices < 2) &&
-		printWarning("hdr0.srow_x: [%g, %g, %g, %g]\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
+/* 		printWarning("hdr0.srow_x: [%g, %g, %g, %g]\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
 		printWarning("hdr0.srow_y: [%g, %g, %g, %g]\n", hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3]);
 		printWarning("hdr0.srow_z: [%g, %g, %g, %g]\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]);
-		printWarning("imgM: %g\n",imgM[1]);
+		printWarning("imgM: %g\n",imgM[1]); */
 		imgM = nii_flipY(imgM, &hdr0);
 		isFlipY = true;
-		printWarning("hdr0.srow_x: [%g, %g, %g, %g]\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
+/* 		printWarning("hdr0.srow_x: [%g, %g, %g, %g]\n", hdr0.srow_x[0], hdr0.srow_x[1], hdr0.srow_x[2], hdr0.srow_x[3]);
 		printWarning("hdr0.srow_y: [%g, %g, %g, %g]\n", hdr0.srow_y[0], hdr0.srow_y[1], hdr0.srow_y[2], hdr0.srow_y[3]);
-		printWarning("hdr0.srow_z: [%g, %g, %g, %g]\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]);
+		printWarning("hdr0.srow_z: [%g, %g, %g, %g]\n", hdr0.srow_z[0], hdr0.srow_z[1], hdr0.srow_z[2], hdr0.srow_z[3]); */
 	} else
-		printMessage("DICOM row order preserved: may appear upside down in tools that ignore spatial transforms\n");
+		//printMessage("DICOM row order preserved: may appear upside down in tools that ignore spatial transforms\n");
 	if ((dcmList[dcmSort[0].indx].epiVersionGE == kGE_EPI_PEPOLAR_REV) || (dcmList[dcmSort[0].indx].epiVersionGE == kGE_EPI_PEPOLAR_FWD_REV_FLIP) || (dcmList[dcmSort[0].indx].epiVersionGE == kGE_EPI_PEPOLAR_REV_FWD_FLIP)) {
 		imgM = nii_flipImgY(imgM, &hdr0);
 	}
